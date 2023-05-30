@@ -1,0 +1,1250 @@
+
+1,EIP Purpose and Guidelines,Living,Meta,"Martin Becze <mb@ethereum.org>, Hudson Jameson <hudson@ethereum.org>, et al.",2015-10-27
+
+100,Change difficulty adjustment to target mean block time including uncles,Vitalik Buterin (@vbuterin),Standards Track,Core,Final,2016-04-28
+
+101,Serenity Currency and Crypto Abstraction,Vitalik Buterin (@vbuterin),Stagnant,Standards Track,Core,2015-11-15
+
+1010,Uniformity Between 0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B and 0x15E55EF43efA8348dDaeAa455F16C43B64917e3c,Anderson Wesley (@andywesley),andywesley#1,Stagnant,Standards Track,Core,2018-04-18
+
+1011,Hybrid Casper FFG,Stagnant,Standards Track,Core,"Danny Ryan (@djrtwo), Chih-Cheng Liang (@ChihChengLiang)",djrtwo#5,2018-04-20
+
+1013,Hardfork Meta: Constantinople,Nick Savers (@nicksavers),Meta,Final,2018-04-20,"145, 609, 1014, 1052, 1234, 1283"
+
+1014,Skinny CREATE2,Vitalik Buterin (@vbuterin),Core,Standards Track,Final,2018-04-20
+
+1015,Configurable On Chain Issuance,Alex Van de Sande <avsa@ethereum.org>,https://ethereum-magicians.org/t/eip-dynamic-block-rewards-with-governance-contract/204,Stagnant,Standards Track,Core,2018-04-20
+
+1046,tokenURI Interoperability,"Extends ERC-20 with an ERC-721-like tokenURI, and extends ERC-721 and ERC-1155 with interoperability","Tommy Nicholas (@tomasienrbc), Matt Russo (@mateosu), John Zettler (@JohnZettler), Matt Condon (@shrugs), Gavin John (@Pandapip1)",https://ethereum-magicians.org/t/eip-1046-erc-20-metadata-extension/13036,Final,Standards Track,ERC,2018-04-13,"20, 721, 1155"
+
+1051,Overflow checking for the EVM,Nick Johnson <arachnid@notdot.net>,https://ethereum-magicians.org/t/eip-arithmetic-overflow-detection-for-the-evm/261,Stagnant,Standards Track,Core,2018-05-02
+
+1052,EXTCODEHASH opcode,"Nick Johnson <arachnid@notdot.net>, Paweł Bylica <pawel@ethereum.org>",https://ethereum-magicians.org/t/extcodehash-opcode/262,Final,Standards Track,Core,2018-05-02,161
+
+1056,Ethereum Lightweight Identity,"Pelle Braendgaard <pelle.braendgaard@consensys.net>, Joel Torstensson <oed@consensys.net>",Standards Track,ERC,#1056,Stagnant,2018-05-03
+
+1057,"ProgPoW, a Programmatic Proof-of-Work","Greg Colvin <greg@colvin.org>, Andrea Lanfranchi (@AndreaLanfranchi), Michael Carter (@bitsbetrippin), IfDefElse <ifdefelse@protonmail.com>",https://ethereum-magicians.org/t/eip-progpow-a-programmatic-proof-of-work/272,Stagnant,Standards Track,Core,2018-05-02
+
+1062,Formalize IPFS hash into ENS(Ethereum Name Service) resolver,"Phyrex Tsai <phyrex@portal.network>, Portal Network Team",https://ethereum-magicians.org/t/eip-1062-formalize-ipfs-hash-into-ens-ethereum-name-service-resolver/281,Stagnant,Standards Track,ERC,2018-05-02
+
+1066,Status Codes,"Brooklyn Zelenka (@expede), Tom Carchrae (@carchrae), Gleb Naumenko (@naumenkogs)",https://ethereum-magicians.org/t/erc-1066-ethereum-status-codes-esc/,Stagnant,Standards Track,ERC,2018-05-05
+
+107,"safe ""eth_sendTransaction"" authorization via html popup",Ronan Sandford (@wighawag),2016-06-05,Stagnant,Standards Track,Interface
+
+1077,Gas relay for contract calls,"Alex Van de Sande <avsa@ethereum.org>, Ricardo Guilherme Schmidt (@3esmit)",https://ethereum-magicians.org/t/erc1077-and-1078-the-magic-of-executable-signed-messages-to-login-and-do-actions/351,Stagnant,Standards Track,ERC,2018-05-04,"20, 191, 1271, 1344"
+
+1078,Universal login / signup using ENS subdomains,Alex Van de Sande <avsa@ethereum.org>,https://ethereum-magicians.org/t/erc1077-and-1078-the-magic-of-executable-signed-messages-to-login-and-do-actions/351,Stagnant,Standards Track,ERC,2018-05-04,"191, 681, 725, 1077"
+
+1080,Recoverable Token,Bradley Leatherwood <bradleat@inkibra.com>,https://ethereum-magicians.org/t/erc-1080-recoverabletoken-standard/364,Stagnant,Standards Track,ERC,2018-05-02
+
+1081,Standard Bounties,"Mark Beylin <mark.beylin@consensys.net>, Kevin Owocki <kevin.owocki@consensys.net>, Ricardo Guilherme Schmidt (@3esmit)",https://gitter.im/bounties-network/Lobby,Stagnant,Standards Track,ERC,2018-05-14,20
+
+1087,Net gas metering for SSTORE operations,Nick Johnson (@arachnid),https://ethereum-magicians.org/t/eip-net-storage-gas-metering-for-the-evm/383,Stagnant,Standards Track,Core,2018-05-17
+
+1102,Opt-in account exposure,"Paul Bouchon <mail@bitpshr.net>, Erik Marks (@rekmarks)",https://ethereum-magicians.org/t/eip-1102-opt-in-provider-access/414,Stagnant,Standards Track,Interface,2018-05-04,1474
+
+1108,Reduce alt_bn128 precompile gas costs,"Antonio Salazar Cardozo (@shadowfiend), Zachary Williamson (@zac-williamson)",https://ethereum-magicians.org/t/eip-1108-reduce-alt-bn128-precompile-gas-costs/3206,Final,Standards Track,Core,2018-05-21,"196, 197"
+
+1109,PRECOMPILEDCALL opcode (Remove CALL costs for precompiled contracts),Jordi Baylina (@jbaylina),https://ethereum-magicians.org/t/eip-1109-remove-call-costs-for-precompiled-contracts/447,Stagnant,Standards Track,Core,2018-05-22
+
+1123,Revised Ethereum Smart Contract Packaging Standard,"g. nicholas d’andrea (@gnidan), Piper Merriam (@pipermerriam), Nick Gheorghita (@njgheorghita), Danny Ryan (@djrtwo)",#1123,Withdrawn,Standards Track,ERC,2018-06-01
+
+1129,Standardised DAPP announcements,Jan Turk (@ThunderDeliverer),https://ethereum-magicians.org/t/eip-sda-standardised-dapp-announcements/508?u=thunderdeliverer,Stagnant,Standards Track,ERC,2018-05-31
+
+1132,Extending ERC20 with token locking capability,nitika-goel <nitika@govblocks.io>,Standards Track,ERC,Stagnant,2018-06-03,#1132
+
+1153,Transient storage opcodes,Add opcodes for manipulating state that behaves identically to storage but is discarded after every transaction,"Alexey Akhunov (@AlexeyAkhunov), Moody Salem (@moodysalem)",https://ethereum-magicians.org/t/eip-transient-storage-opcodes/553,Last Call,2022-12-08,Standards Track,Core,2018-06-15,"2200, 3529"
+
+1154,Oracle Interface,Alan Lu (@cag),#1161,Withdrawn,Standards Track,ERC,2018-06-13
+
+1155,Multi Token Standard,"Witek Radomski <witek@enjin.io>, Andrew Cooke <ac0dem0nk3y@gmail.com>, Philippe Castonguay (@phabc) <pc@horizongames.net>, James Therien <james@turing-complete.com>, Eric Binet <eric@enjin.io>, Ronan Sandford (@wighawag) <wighawag@gmail.com>",Standards Track,ERC,Final,2018-06-17,#1155,165
+
+1167,Minimal Proxy Contract,"Peter Murray (@yarrumretep), Nate Welch (@flygoing), Joe Messerman (@JAMesserman)",optionality/clone-factory#10,Final,Standards Track,ERC,2018-06-22,211
+
+1175,Wallet & shop standard for all tokens (erc20),Jet Lim (@Nitro888),#1182,Stagnant,Standards Track,ERC,2018-06-21,20
+
+1178,Multi-class Token Standard,Albert Chon <achon@stanford.edu>,#1179,Stagnant,Standards Track,ERC,2018-06-22
+
+1185,Storage of DNS Records in ENS,A system to store and retrieve DNS records within the ENS contract.,Jim McDonald (@mcdee),https://ethereum-magicians.org/t/eip1185-dns-resolver-profile-for-ens/1589,Draft,Standards Track,ERC,2018-06-26,137
+
+1186,RPC-Method to get Merkle Proofs - eth_getProof,"Simon Jentzsch <simon.jentzsch@slock.it>, Christoph Jentzsch <christoph.jentzsch@slock.it>",#1186,Stagnant,Standards Track,Interface,2018-06-24,1474
+
+1191,Add chain id to mixed-case checksum address encoding,Juliano Rizzo (@juli),Last Call,2019-11-18,Standards Track,ERC,2018-03-18,"55, 155",#1121
+
+1193,Ethereum Provider JavaScript API,"Fabian Vogelsteller (@frozeman), Ryan Ghods (@ryanio), Victor Maia (@MaiaVictor), Marc Garreau (@marcgarreau), Erik Marks (@rekmarks)",#2319,Final,Standards Track,Interface,2018-06-30,"155, 695"
+
+1202,Voting Interface,A general interface for voting on-chain,"Zainan Victor Zhou (@xinbenlv), Evan (@evbots), Yin Xu (@yingogobot)",https://ethereum-magicians.org/t/eip-1202-voting-interface/11484,Draft,Standards Track,ERC,2018-07-08
+
+1203,ERC-1203 Multi-Class Token Standard (ERC-20 Extension),"Jeff Huang <jeffishjeff@gmail.com>, Min Zu <crawlregister@gmail.com>",#1203,Stagnant,Standards Track,ERC,2018-07-01
+
+1207,DAuth Access Delegation Standard,"Xiaoyu Wang (@wxygeek), Bicong Wang (@Wangbicong)",#1207,Stagnant,Standards Track,ERC,2018-07-10
+
+1227,Defuse Difficulty Bomb and Reset Block Reward,SmeargleUsedFly (@SmeargleUsedFly),#1227,Stagnant,Standards Track,Core,2018-07-18,649
+
+1234,Constantinople Difficulty Bomb Delay and Block Reward Adjustment,Afri Schoedon (@5chdn),https://ethereum-magicians.org/t/eip-1234-constantinople-difficulty-bomb-delay-and-block-reward-adjustment/833,Standards Track,Core,Final,2018-07-19
+
+1240,Remove Difficulty Bomb,Micah Zoltu (@MicahZoltu),https://ethereum-magicians.org/t/difficulty-bomb-removal/832,Standards Track,Core,Withdrawn,2018-07-21
+
+1261,Membership Verification Token (MVT),"Chaitanya Potti (@chaitanyapotti), Partha Bhattacharya (@pb25193)",Standards Track,ERC,Stagnant,2018-07-14,"165, 173",#1261
+
+1271,Standard Signature Validation Method for Contracts,Standard way to verify a signature when the account is a smart contract,"Francisco Giordano (@frangio), Matt Condon (@shrugs), Philippe Castonguay (@PhABC), Amir Bandeali (@abandeali1), Jorge Izquierdo (@izqui), Bertrand Masius (@catageek)",#1271,Final,Standards Track,ERC,2018-07-25
+
+1276,Eliminate Difficulty Bomb and Adjust Block Reward on Constantinople Shift,EOS Classic (@eosclassicteam),https://ethereum-magicians.org/t/eip-1276-eliminate-difficulty-bomb-and-adjust-block-reward-on-constantinople-shift/908,Standards Track,Core,Stagnant,2018-07-31
+
+1283,Net gas metering for SSTORE without dirty maps,Wei Tang (@sorpaas),sorpaas#1,Final,Standards Track,Core,2018-08-01
+
+1285,Increase Gcallstipend gas in the CALL opcode,"Ben Kaufman <ben@daostack.io>, Adam Levi <adam@daostack.io>",https://ethereum-magicians.org/t/eip-1285-increase-gcallstipend-gas-in-the-call-opcode/941,Stagnant,Standards Track,Core,2018-08-01
+
+1295,Modify Ethereum PoW Incentive Structure and Delay Difficulty Bomb,Brian Venturo (@atlanticcrypto),atlanticcrypto/Discussion#1,Stagnant,Standards Track,Core,2018-08-05
+
+1319,Smart Contract Package Registry Interface,"Piper Merriam <piper@ethereum.org>, Christopher Gewecke <christophergewecke@gmail.com>, g. nicholas d'andrea <nick.dandrea@consensys.net>, Nick Gheorghita (@njgheorghita)",Standards Track,ERC,Stagnant,2018-08-13,#1319
+
+1328,WalletConnect URI Format,Define URI format for initiating connections between applications and wallets,"ligi (@ligi), Pedro Gomes (@pedrouid)",https://ethereum-magicians.org/t/wallet-connect-eip/850,Review,Standards Track,ERC,2018-08-15
+
+1337,Subscriptions on the blockchain,"Kevin Owocki <kevin@gitcoin.co>, Andrew Redden <andrew@blockcrushr.com>, Scott Burke <scott@blockcrushr.com>, Kevin Seagraves <k.s.seagraves@gmail.com>, Luka Kacil <luka.kacil@gmail.com>, Štefan Šimec <stefan.simec@gmail.com>, Piotr Kosiński (@kosecki123), ankit raj <tradeninja7@gmail.com>, John Griffin <john@atchai.com>, Nathan Creswell <nathantr@gmail.com>",https://ethereum-magicians.org/t/eip-1337-subscriptions-on-the-blockchain/4422,Standards Track,Stagnant,ERC,2018-08-01,"20, 165"
+
+1344,ChainID opcode,"Richard Meissner (@rmeissner), Bryant Eisenbach (@fubuloubu)",https://ethereum-magicians.org/t/add-chain-id-opcode-for-replay-protection-when-handling-signed-messages-in-contracts/1131,Core,Standards Track,Final,2018-08-22,155
+
+1352,Specify restricted address range for precompiles/system contracts,Alex Beregszaszi (@axic),https://ethereum-magicians.org/t/eip-1352-specify-restricted-address-range-for-precompiles-system-contracts/1151,Stagnant,Standards Track,Core,2018-07-27
+
+1355,Ethash 1a,"Paweł Bylica (@chfast), Jean M. Cyr (@jean-m-cyr)",https://ethereum-magicians.org/t/eip-1355-ethash-1a/1167,Withdrawn,Standards Track,Core,2018-08-26
+
+1363,Payable Token,Vittorio Minacori (@vittominacori),#1363,Final,Standards Track,ERC,2020-01-31,"20, 165"
+
+137,Ethereum Domain Name Service - Specification,Nick Johnson <arachnid@notdot.net>,Final,Standards Track,ERC,2016-04-04
+
+1380,Reduced gas cost for call to self,"Alex Beregszaszi (@axic), Jacques Wagener (@jacqueswww)",https://ethereum-magicians.org/t/eip-1380-reduced-gas-cost-for-call-to-self/1242,Stagnant,Standards Track,Core,2018-08-31,150
+
+1386,Attestation management contract,"Weiwu Zhang <a@colourful.land>, James Sangalli <j.l.sangalli@gmail.com>",#1386,Stagnant,Standards Track,ERC,2018-09-08
+
+1387,Merkle Tree Attestations with Privacy enabled,"Weiwu Zhang <a@colourful.land>, James Sangalli <j.l.sangalli@gmail.com>",#1387,Stagnant,Standards Track,ERC,2018-09-08
+
+1388,Attestation Issuers Management List,"Weiwu Zhang <a@colourful.land>, James Sangalli <j.l.sangalli@gmail.com>",#1388,Stagnant,Standards Track,ERC,2018-09-08
+
+140,REVERT instruction,"Alex Beregszaszi (@axic), Nikolai Mushegian <nikolai@nexusdev.us>",Standards Track,Core,Final,2017-02-06
+
+141,Designated invalid EVM instruction,Alex Beregszaszi (@axic),Standards Track,Core,Final,2017-02-09
+
+1417,Poll Standard,"Chaitanya Potti (@chaitanyapotti), Partha Bhattacharya (@pb25193)",Standards Track,ERC,Stagnant,2018-09-16,"165, 1261",#1417
+
+1418,Blockchain Storage Rent Payment,"At each block, deduct value from every account based on the quantity of storage used by that account.",William Entriken (@fulldecent),https://ethereum-magicians.org/t/eip-1418-storage-rent/10737,Draft,Standards Track,Core,2018-09-16,1559
+
+1438,dApp Components (avatar) & Universal Wallet,Jet Lim (@Nitro888),https://ethresear.ch/t/avatar-system-and-universal-wallet-for-ethereum-address/3473,Stagnant,Standards Track,ERC,2018-09-21
+
+1444,Localized Messaging with Signal-to-Text,"Brooklyn Zelenka (@expede), Jennifer Cooper (@jenncoop)",https://ethereum-magicians.org/t/eip-1444-localized-messaging-with-signal-to-text/,Stagnant,Standards Track,ERC,2018-09-23
+
+145,Bitwise shifting instructions in EVM,"Alex Beregszaszi (@axic), Paweł Bylica (@chfast)",Standards Track,Core,Final,2017-02-13
+
+1450,ERC-1450 A compatible security token for issuing and trading SEC-compliant securities,"John Shiple (@johnshiple), Howard Marks <howard@startengine.com>, David Zhang <david@startengine.com>",https://ethereum-magicians.org/t/erc-proposal-ldgrtoken-a-compatible-security-token-for-issuing-and-trading-sec-compliant-securities/1468,Stagnant,Standards Track,ERC,2018-09-25
+
+1459,Node Discovery via DNS,Scheme for authenticated updateable Ethereum node lists via DNS.,"Felix Lange (@fjl), Péter Szilágyi (@karalabe)",ethereum/devp2p#50,Draft,Standards Track,Networking,2018-09-26,778
+
+1462,Base Security Token,"Maxim Kupriianov <mk@atlant.io>, Julian Svirsky <js@atlant.io>",https://ethereum-magicians.org/t/erc-1462-base-security-token/1501,Stagnant,Standards Track,ERC,2018-10-01,"20, 1066"
+
+1470,Smart Contract Weakness Classification (SWC),Gerhard Wagner (@thec00n),#1469,Stagnant,Informational,2018-09-18
+
+1474,Remote procedure call specification,"Paul Bouchon <mail@bitpshr.net>, Erik Marks (@rekmarks)",https://ethereum-magicians.org/t/eip-remote-procedure-call-specification/1537,Stagnant,Standards Track,Interface,2018-10-02
+
+1482,Define a maximum block timestamp drift,Maurelian (@Maurelian),https://ethereum-magicians.org/t/define-a-maximum-block-timestamp-drift/1556,Stagnant,Standards Track,Core,2018-10-09
+
+1484,Digital Identity Aggregator,"Anurag Angara <anurag.angara@gmail.com>, Andy Chorlian <andychorlian@gmail.com>, Shane Hampton <shanehampton1@gmail.com>, Noah Zinsmeister <noahwz@gmail.com>",#1495,Stagnant,Standards Track,ERC,2018-10-12,191
+
+1485,TEthashV1,"trustfarm <trustfarm.info@gmail.com>, trustfarm <cpplover@trustfarm.net>",https://ethereum-magicians.org/t/anti-eth-asic-mining-eip-1488-pr/1807,Stagnant,Standards Track,Core,2018-11-01
+
+1491,Human Cost Accounting Standard (Like Gas but for humans),Iamnot Chris (@cohabo),freeworkculture/kazini#11,Stagnant,Standards Track,ERC,2018-10-12
+
+150,Gas cost changes for IO-heavy operations,Vitalik Buterin (@vbuterin),Standards Track,Core,Final,2016-09-24
+
+1504,Upgradable Smart Contract,"Kaidong Wu <wukd94@pku.edu.cn>, Chuqiao Ren <cr025@bucknell.edu>, Ruthia He <rujiahe@gmail.com>, Yun Ma <mayun@pku.edu.cn>, Xuanzhe Liu <liuxuanzhe@pku.edu.cn>",#1503,Stagnant,Standards Track,ERC,2018-10-17
+
+152,Add BLAKE2 compression function `F` precompile,"Tjaden Hess <tah83@cornell.edu>, Matt Luongo (@mhluongo), Piotr Dyraga (@pdyraga), James Hancock (@MadeOfTin)",#152,Final,Standards Track,Core,2016-10-04
+
+1523,Standard for Insurance Policies as ERC-721 Non Fungible Tokens,Christoph Mussenbrock (@christoph2806),#1523,Stagnant,Standards Track,ERC,2018-10-10,721
+
+1538,Transparent Contract Standard,Nick Mudge <nick@perfectabstractions.com>,#1538,Withdrawn,Standards Track,ERC,2018-10-31
+
+155,Simple replay attack protection,Vitalik Buterin (@vbuterin),Standards Track,Core,Final,2016-10-14
+
+1559,Fee market change for ETH 1.0 chain,"Vitalik Buterin (@vbuterin), Eric Conner (@econoar), Rick Dudley (@AFDudley), Matthew Slipper (@mslipper), Ian Norden (@i-norden), Abdelhamid Bakhta (@abdelhamidbakhta)",https://ethereum-magicians.org/t/eip-1559-fee-market-change-for-eth-1-0-chain/2783,Final,Standards Track,Core,2019-04-13,"2718, 2930"
+
+1571,EthereumStratum/2.0.0,"Andrea Lanfranchi (@AndreaLanfranchi), Pawel Bylica (@chfast), Marius Van Der Wijden (@MariusVanDerWijden)",https://github.com/AndreaLanfranchi/EthereumStratum-2.0.0/issues,Stagnant,Standards Track,Interface,2018-11-09
+
+1577,contenthash field for ENS,"Dean Eigenmann <dean@ens.domains>, Nick Johnson <nick@ens.domains>",Standards Track,ERC,Stagnant,2018-11-13
+
+158,State clearing,Vitalik Buterin (@vbuterin),Standards Track,Core,Final,2016-10-16
+
+1581,Non-wallet usage of keys derived from BIP-32 trees,A derivation path structure for BIP32 trees to generate key pairs not meant to hold crypto assets.,Michele Balistreri (@bitgamma),https://ethereum-magicians.org/t/non-wallet-usage-of-keys-derived-from-bip-32-trees/1817,Stagnant,Standards Track,ERC,2018-11-13
+
+1588,Hardfork Meta: Ethereum ProgPoW,Ikmyeong Na (@naikmyeong),Stagnant,Meta,2018-11-16,1057
+
+1592,Address and ERC20-compliant transfer rules,"Cyril Lapinte <cyril.lapinte@mtpelerin.com>, Laurent Aapro <laurent.aapro@mtpelerin.com>",#1597,Standards Track,ERC,Stagnant,2018-11-09
+
+160,EXP cost increase,Vitalik Buterin (@vbuterin),Standards Track,Core,Final,2016-10-20
+
+161,State trie clearing (invariant-preserving alternative),Gavin Wood (@gavofyork),Standards Track,Core,Final,2016-10-24
+
+1613,Gas stations network,"Yoav Weiss <yoav@tabookey.com>, Dror Tirosh <dror@tabookey.com>, Alex Forshtat <alex@tabookey.com>",yoav-tabookey#1,Stagnant,Standards Track,ERC,2018-11-18,1077
+
+1616,Attribute Registry Standard,"0age (@0age), Santiago Palladino (@spalladino), Leo Arias (@elopio), Alejo Salles (@fiiiu), Stephane Gosselin (@thegostep)",#1616,Stagnant,Standards Track,ERC,2018-11-23,165
+
+162,Initial ENS Hash Registrar,"Maurelian, Nick Johnson  <nick@ethereum.org>, Alex Van de Sande <avsa@ethereum.org>",Final,Standards Track,ERC,2016-10-25
+
+1620,Money Streaming,Paul Berg (@PaulRBerg),#1620,Stagnant,Standards Track,ERC,2018-11-24
+
+1633,Re-Fungible Token Standard (RFT),"Billy Rennekamp (@okwme), Dan Long <dan@artblx.com>, Kiryl Yermakou <kiryl@artblx.com>, Nate van der Ende <nate@artblx.com>",#1634,Stagnant,Standards Track,ERC,2018-11-18,"20, 165, 721"
+
+165,Standard Interface Detection,"Christian Reitwießner <chris@ethereum.org>, Nick Johnson <nick@ethereum.org>, Fabian Vogelsteller <fabian@lukso.network>, Jordi Baylina <jordi@baylina.cat>, Konrad Feldmeier <konrad.feldmeier@brainbot.com>, William Entriken <github.com@phor.net>",Standards Track,ERC,Final,2018-01-23,214
+
+1679,Hardfork Meta: Istanbul,"Alex Beregszaszi (@axic), Afri Schoedon (@5chdn)",https://ethereum-magicians.org/t/hardfork-meta-istanbul-discussion/3207,Meta,Final,2019-01-04,"152, 1108, 1344, 1716, 1884, 2028, 2200"
+
+1681,Temporal Replay Protection,Martin Holst Swende (@holiman),https://ethereum-magicians.org/t/temporal-replay-protection/2355,Stagnant,Standards Track,Core,2019-01-08
+
+1682,Storage Rent,"Felix J Lange (@fjl), Martin Holst Swende (@holiman)",https://ethereum-magicians.org/t/storage-rent-eip/2357,Withdrawn,Standards Track,Core,2018-11-10
+
+170,Contract code size limit,Vitalik Buterin (@vbuterin),Standards Track,Core,Final,2016-11-04
+
+1702,Generalized Account Versioning Scheme,Wei Tang (@sorpaas),sorpaas#2,Stagnant,Standards Track,Core,2017-12-30
+
+1706,Disable SSTORE with gasleft lower than call stipend,"Alex Forshtat <alex@tabookey.com>, Yoav Weiss <yoav@tabookey.com>",forshtat#1,Withdrawn,The authors prefer [EIP-2200](./eip-2200.md),Standards Track,Core,2019-01-15,1283
+
+1710,URL Format for Web3 Browsers,Bruno Barbieri (@brunobar79),https://ethereum-magicians.org/t/standarize-url-format-for-web3-browsers/2422,Stagnant,Standards Track,ERC,2019-01-13,155
+
+1716,Hardfork Meta: Petersburg,"Afri Schoedon (@5chdn), Marius van der Wijden (@MariusVanDerWijden)",Meta,Final,2019-01-21,"1013, 1283"
+
+173,Contract Ownership Standard,A standard interface for ownership of contracts,"Nick Mudge (@mudgen), Dan Finlay <dan@danfinlay.com>",#173,Standards Track,ERC,Final,2018-06-07
+
+1753,Smart Contract Interface for Licences,"Lucas Cullen (@BitcoinBrisbane), Kai Yeung (@CivicKai), Anna Crowley <annaelizabethcrowley@gmail.com>, Caroline Marshall <caroline.marshall888@gmail.com>, Katrina Donaghy <katrina@civicledger.com>",Stagnant,Standards Track,ERC,2019-02-06
+
+1761,Scoped Approval Interface,"Witek Radomski <witek@enjin.io>, Andrew Cooke <ac0dem0nk3y@gmail.com>, James Therien <james@enjin.io>, Eric Binet <eric@enjin.io>",Standards Track,ERC,Stagnant,2019-02-18,#1761,165
+
+1767,GraphQL interface to Ethereum node data,"Nick Johnson (@arachnid), Raúl Kripalani (@raulk), Kris Shinn (@kshinn)",https://ethereum-magicians.org/t/graphql-interface-to-ethereum-node-data/2710,Stagnant,Standards Track,Interface,2019-02-14
+
+1775,"App Keys, application specific wallet accounts","Vincent Eli (@Bunjin), Dan Finlay (@DanFinlay)",https://ethereum-magicians.org/t/eip-erc-app-keys-application-specific-wallet-accounts/2742,Stagnant,Standards Track,ERC,2019-02-20
+
+1803,Rename opcodes for clarity,Alex Beregszaszi (@axic),https://ethereum-magicians.org/t/eip-1803-rename-opcodes-for-clarity/3345,Standards Track,Interface,Stagnant,2017-07-28,141
+
+181,ENS support for reverse resolution of Ethereum addresses,Nick Johnson <arachnid@notdot.net>,Final,Standards Track,ERC,2016-12-01
+
+1812,Ethereum Verifiable Claims,Pelle Braendgaard (@pelle),https://ethereum-magicians.org/t/erc-1812-ethereum-verifiable-claims/2814,Stagnant,Standards Track,ERC,2019-03-03,712
+
+1820,Pseudo-introspection Registry Contract,"Jordi Baylina <jordi@baylina.cat>, Jacques Dafflon <mail@0xjac.com>",#1820,Final,Standards Track,ERC,"165, 214",2019-03-04
+
+1822,Universal Upgradeable Proxy Standard (UUPS),"Gabriel Barros <gabriel@terminal.co>, Patrick Gallagher <blockchainbuddha@gmail.com>",https://ethereum-magicians.org/t/eip-1822-universal-upgradeable-proxy-standard-uups,Stagnant,Standards Track,ERC,2019-03-04
+
+1829,Precompile for Elliptic Curve Linear Combinations,Remco Bloemen <Recmo@0x.org>,https://ethereum-magicians.org/t/ewasm-precompile-for-general-elliptic-curve-math/2581,Stagnant,Standards Track,Core,2019-03-06
+
+1844,ENS Interface Discovery,Nick Johnson (@arachnid),https://ethereum-magicians.org/t/ens-interface-discovery/2924,Stagnant,Standards Track,ERC,2019-03-15,"137, 165"
+
+1872,Ethereum Network Upgrade Windows,Danno Ferrin (@shemnon),https://ethereum-magicians.org/t/eip-1872-ethereum-network-upgrade-windows/2993,Stagnant,Meta,2018-03-25
+
+1884,Repricing for trie-size-dependent opcodes,Martin Holst Swende (@holiman),Standards Track,Core,https://ethereum-magicians.org/t/opcode-repricing/3024,Final,2019-03-28,"150, 1052"
+
+1890,Commitment to Sustainable Ecosystem Funding,"Gregory Markou <greg@chainsafe.io>, Kevin Owocki <kevin@gitcoin.co>, Lane Rettig <lane@ethereum.org>",https://t.me/joinchat/DwEd_xahL5hHvzNYH2RnQA,Withdrawn,Standards Track,Core,2019-03-31
+
+1895,Support for an Elliptic Curve Cycle,Alexandre Belling <alexandrebelling8@gmail.com>,https://ethresear.ch/t/reducing-the-verification-cost-of-a-snark-through-hierarchical-aggregation/5128,Stagnant,Standards Track,Core,2018-03-31
+
+1898,Add `blockHash` to defaultBlock methods,Add `blockHash` option to JSON-RPC methods that currently support defaultBlock parameter.,Charles Cooper (@charles-cooper),https://ethereum-magicians.org/t/eip-1898-add-blockhash-option-to-json-rpc-methods-that-currently-support-defaultblock-parameter/11757,Review,Standards Track,Interface,2019-04-01,234
+
+190,Ethereum Smart Contract Packaging Standard,"Piper Merriam (@pipermerriam), Tim Coulter (@tcoulter), Denis Erfurt (@mhhf), RJ Catalano (@VoR0220), Iuri Matias (@iurimatias)",Final,Standards Track,ERC,2017-01-10
+
+1900,dType - Decentralized Type System for EVM,"Loredana Cirstea (@loredanacirstea), Christian Tzurcanu (@ctzurcanu)",#1882,Stagnant,Standards Track,ERC,2019-03-28
+
+1901,Add OpenRPC Service Discovery To JSON-RPC Services,"Shane Jonas (@shanejonas), Zachary Belford (@belfordz)",#1902,Stagnant,Standards Track,Interface,2019-02-25
+
+191,Signed Data Standard,"Martin Holst Swende (@holiman), Nick Johnson <arachnid@notdot.net>",#191,Final,Standards Track,ERC,2016-01-20
+
+1921,dType Functions Extension,"Loredana Cirstea (@loredanacirstea), Christian Tzurcanu (@ctzurcanu)",#1921,Stagnant,Standards Track,ERC,2019-04-06,1900
+
+1922,zk-SNARK Verifier Standard,"Michael Connor <michael.connor@uk.ey.com>, Chaitanya Konda <chaitanya.konda@uk.ey.com>, Duncan Westland <duncan.westland@uk.ey.com>",#1922,Standards Track,ERC,Stagnant,2018-09-14,"165, 196, 197"
+
+1923,zk-SNARK Verifier Registry Standard,"Michael Connor <michael.connor@uk.ey.com>, Chaitanya Konda <chaitanya.konda@uk.ey.com>, Duncan Westland <duncan.westland@uk.ey.com>",#1923,Standards Track,ERC,Stagnant,2018-12-22,"165, 196, 197"
+
+1930,CALLs with strict gas semantic. Revert if not enough gas available.,Ronan Sandford (@wighawag),Standards Track,#1930,Core,Stagnant,2019-04-10
+
+1948,Non-fungible Data Token,"Johann Barbie (@johannbarbie), Ben Bollen <ben@ost.com>, pinkiebell (@pinkiebell)",https://ethereum-magicians.org/t/erc-non-fungible-data-token/3139,Stagnant,Standards Track,ERC,2019-04-18,721
+
+1959,New Opcode to check if a chainID is part of the history of chainIDs,Ronan Sandford (@wighawag),Core,Standards Track,https://ethereum-magicians.org/t/eip-1959-valid-chainid-opcode/3170,Stagnant,2019-04-20,155
+
+196,Precompiled contracts for addition and scalar multiplication on the elliptic curve alt_bn128,Christian Reitwiessner <chris@ethereum.org>,Standards Track,Core,Final,2017-02-02
+
+1962,EC arithmetic and pairings with runtime definitions,Alex Vlasov (@shamatar),https://ethereum-magicians.org/t/generalised-precompile-for-elliptic-curve-arithmetics-and-pairings-working-group/3208/2,Standards Track,Core,Stagnant,2019-04-22,1109
+
+1965,Method to check if a chainID is valid at a specific block Number,Ronan Sandford (@wighawag),Core,Standards Track,https://ethereum-magicians.org/t/eip-1965-valid-chainid-for-specific-blocknumber-protect-all-forks/3181,Stagnant,2019-04-20,155
+
+1967,Proxy Storage Slots,"A consistent location where proxies store the address of the logic contract they delegate to, as well as other proxy-specific information.","Santiago Palladino (@spalladino), Francisco Giordano (@frangio), Hadrien Croubois (@Amxx)",https://ethereum-magicians.org/t/eip-1967-standard-proxy-storage-slots/3185,Final,Standards Track,ERC,2019-04-24
+
+197,Precompiled contracts for optimal ate pairing check on the elliptic curve alt_bn128,"Vitalik Buterin <vitalik@ethereum.org>, Christian Reitwiessner <chris@ethereum.org>",Standards Track,Core,Final,2017-02-06
+
+1973,Scalable Rewards,"Lee Raj (@lerajk), Qin Jian (@qinjian)",Standards Track,ERC,Stagnant,2019-04-01
+
+198,Big integer modular exponentiation,Vitalik Buterin (@vbuterin),Final,Standards Track,Core,2017-01-30
+
+1985,Sane limits for certain EVM parameters,"Alex Beregszaszi (@axic), Paweł Bylica (@chfast)",https://ethereum-magicians.org/t/eip-1985-sane-limits-for-certain-evm-parameters/3224,Stagnant,Standards Track,Core,2018-08-01
+
+1996,Holdable Token,"Julio Faura <julio@adhara.io>, Fernando Paris <fer@io.builders>, Daniel Lehrner <daniel@io.builders>",#2103,Stagnant,Standards Track,ERC,2019-04-10,20
+
+2,Homestead Hard-fork Changes,Vitalik Buterin (@vbuterin),Final,Standards Track,Core,2015-11-15
+
+20,Token Standard,"Fabian Vogelsteller <fabian@ethereum.org>, Vitalik Buterin <vitalik.buterin@ethereum.org>",Standards Track,ERC,Final,2015-11-19
+
+2003,EVMC modules for implementations of precompiled contracts,"Paweł Bylica (@chfast), Alex Beregszaszi (@axic)",ethereum/evmc#259,Stagnant,Standards Track,Interface,2019-05-09,1352
+
+2009,Compliance Service,Daniel Lehrner <daniel@io.builders>,#2022,Stagnant,Standards Track,ERC,2019-05-09,1066
+
+2014,Extended State Oracle,Alex Beregszaszi (@axic),https://ethereum-magicians.org/t/eip-2014-extended-state-oracle/3301,Stagnant,Standards Track,Core,2019-05-10,140
+
+2015,wallet_updateEthereumChain RPC Method,Adds an RPC method to switch betweeen EVM-compatible chains,"Pedro Gomes (@pedrouid), Erik Marks (@rekmarks), Pandapip1 (@Pandapip1)",https://ethereum-magicians.org/t/eip-2015-wallet-update-chain-json-rpc-method-wallet-updatechain/3274,Review,Standards Track,Interface,2019-05-12,155
+
+2018,Clearable Token,"Julio Faura <julio@adhara.io>, Fernando Paris <fer@io.builders>, Daniel Lehrner <daniel@io.builders>",#2104,Stagnant,Standards Track,ERC,2019-04-30,1996
+
+2019,Fundable Token,"Fernando Paris <fer@io.builders>, Julio Faura <julio@adhara.io>, Daniel Lehrner <daniel@io.builders>",#2105,Stagnant,Standards Track,ERC,2019-05-10,20
+
+2020,E-Money Standard Token,"Julio Faura <julio@adhara.io>, Fernando Paris <fer@io.builders>, Daniel Lehrner <daniel@io.builders>",#2407,Stagnant,Standards Track,ERC,2019-05-10,"20, 1066, 1996, 2009, 2018, 2019, 2021"
+
+2021,Payoutable Token,"Fernando Paris <fer@io.builders>, Julio Faura <julio@adhara.io>, Daniel Lehrner <daniel@io.builders>",#2106,Stagnant,Standards Track,ERC,2019-05-10,"20, 1066, 1996"
+
+2025,Block Rewards Proposal for funding Eth1.x,James Hancock (@madeoftin),https://github.com/MadeofTin/EIPs/issues,Withdrawn,Standards Track,Core,2019-04-20,1890
+
+2026,State Rent H - Fixed Prepayment for accounts,Alexey Akhunov (@AlexeyAkhunov),https://ethereum-magicians.org/t/eip-2026-fixed-rent-prepayment-for-all-accounts-change-h-from-state-rent-v3-proposal/3273,Stagnant,Standards Track,Core,2019-05-14
+
+2027,State Rent C - Net contract size accounting,Alexey Akhunov (@AlexeyAkhunov),https://ethereum-magicians.org/t/eip-2027-net-contract-size-accounting-change-c-from-state-rent-v3-proposal/3275,Stagnant,Standards Track,Core,2019-05-14
+
+2028,Transaction data gas cost reduction,"Alexey Akhunov (@AlexeyAkhunov), Eli Ben Sasson <eli@starkware.co>, Tom Brand <tom@starkware.co>, Louis Guthmann <louis@starkware.co>, Avihu Levy <avihu@starkware.co>",https://ethereum-magicians.org/t/eip-2028-calldata-gas-cost-reduction/3280,Final,Standards Track,Core,2019-05-03
+
+2029,State Rent A - State counters contract,Alexey Akhunov (@AlexeyAkhunov),https://ethereum-magicians.org/t/eip-2029-state-counters-contract-change-a-from-state-rent-v3-proposal/3279,Stagnant,Standards Track,Core,2019-05-15
+
+2031,State Rent B - Net transaction counter,Alexey Akhunov (@AlexeyAkhunov),https://ethereum-magicians.org/t/eip-2031-net-transaction-counter-change-b-from-state-rent-v3-proposal/3283,Stagnant,Standards Track,Core,2019-05-15,2029
+
+2035,Stateless Clients - Repricing SLOAD and SSTORE to pay for block proofs,Alexey Akhunov (@AlexeyAkhunov),https://ethereum-magicians.org/t/eip-2035-stateless-clients-repricing-sload-and-sstore-to-pay-for-block-proofs/3284,Stagnant,Standards Track,Core,2019-05-16
+
+2045,Particle gas costs for EVM opcodes,"Casey Detrio (@cdetrio), Alex Beregszaszi (@axic)",https://ethereum-magicians.org/t/eip-2045-fractional-gas-costs/3311,Stagnant,Standards Track,Core,2019-05-17
+
+2046,Reduced gas cost for static calls made to precompiles,Alex Beregszaszi (@axic),https://ethereum-magicians.org/t/eip-2046-reduced-gas-cost-for-static-calls-made-to-precompiles/3291,Stagnant,Standards Track,Core,2019-05-17,"214, 1352"
+
+205,ENS support for contract ABIs,Nick Johnson <nick@ethereum.org>,Standards Track,ERC,Stagnant,2017-02-06,"137, 181"
+
+2069,Recommendation for using YAML ABI in ERCs/EIPs,Alex Beregszaszi (@axic),https://ethereum-magicians.org/t/eip-2069-recommendation-for-using-yaml-abi-in-specifications/3347,Stagnant,Informational,2017-02-11
+
+2070,Hardfork Meta: Berlin,Alex Beregszaszi (@axic),https://ethereum-magicians.org/t/hardfork-meta-eip-2070-berlin-discussion/3561,Meta,Stagnant,2019-05-20,1679
+
+2098,Compact Signature Representation,A compact representation of an Ethereum Signature.,Final,Standards Track,ERC,"Richard Moore (@ricmoo), Nick Johnson <nick@ethereum.org>",#2440,2019-03-14,2
+
+210,Blockhash refactoring,Vitalik Buterin (@vbuterin),Standards Track,Core,Stagnant,2017-02-10
+
+211,New opcodes: RETURNDATASIZE and RETURNDATACOPY,Christian Reitwiessner <chris@ethereum.org>,Standards Track,Core,Final,2017-02-13
+
+2124,Fork identifier for chain compatibility checks,"Péter Szilágyi <peterke@gmail.com>, Felix Lange <fjl@ethereum.org>",#2125,Final,Standards Track,Networking,2019-05-03
+
+2135,"Consumable Interface (Tickets, etc)","An interface extending EIP-721 and EIP-1155 for consumability, supporting use case such as an event ticket.",Zainan Victor Zhou (@xinbenlv),https://ethereum-magicians.org/t/eip-2135-erc-consumable-interface/3439,Last Call,2023-02-01,Standards Track,ERC,2019-06-23,"165, 721, 1155"
+
+214,New opcode STATICCALL,"Vitalik Buterin <vitalik@ethereum.org>, Christian Reitwiessner <chris@ethereum.org>",Standards Track,Core,Final,2017-02-13
+
+2157,dType Storage Extension - Decentralized Type System for EVM,"Loredana Cirstea (@loredanacirstea), Christian Tzurcanu (@ctzurcanu)",#2157,Stagnant,Standards Track,ERC,2019-06-28,1900
+
+2159,Common Prometheus Metrics Names for Clients,Adrian Sutton (@ajsutton),https://ethereum-magicians.org/t/common-chain-metrics/3415,Final,Standards Track,Interface,2019-07-01
+
+2193,dType Alias Extension - Decentralized Type System,"Loredana Cirstea (@loredanacirstea), Christian Tzurcanu (@ctzurcanu)",#2192,Stagnant,Standards Track,ERC,2019-07-16,"155, 1900, 2157"
+
+2200,Structured Definitions for Net Gas Metering,Wei Tang (@sorpaas),sorpaas#1,Final,Standards Track,Core,2019-07-18
+
+2228,Canonicalize the name of network ID 1 and chain ID 1,William Entriken (@fulldecent),#2228,Final,Informational,2019-08-04
+
+223,223 Token with communication model,Token with event handling and communication model,Dexaran (@Dexaran) <dexaran@ethereumclassic.org>,https://ethereum-magicians.org/t/erc-223-token-standard/12894,Draft,Standards Track,ERC,2017-05-03
+
+2242,Transaction Postdata,John Adler (@adlerjohn),https://ethereum-magicians.org/t/eip-2242-transaction-postdata/3557,Stagnant,Standards Track,Core,2019-08-16
+
+225,Clique proof-of-authority consensus protocol,Péter Szilágyi <peterke@gmail.com>,#225,Final,Standards Track,Core,2017-03-06
+
+2255,Wallet Permissions System,An interface to restrict access to sensitive methods,"Dan Finlay (@danfinlay), Erik Marks (@rekmarks), Gavin John (@Pandapip1)",https://ethereum-magicians.org/t/web3-login-permissions/3583,Final,Standards Track,Interface,2019-08-22,1193
+
+2256,wallet_getOwnedAssets JSON-RPC Method,Loredana Cirstea (@loredanacirstea),https://ethereum-magicians.org/t/eip-2256-add-wallet-getownedassets-json-rpc-method/3600,Stagnant,Standards Track,Interface,2019-08-29,"55, 155, 1474"
+
+2266,Atomic Swap-based American Call Option Contract Standard,"Runchao Han <runchao.han@monash.edu>, Haoyu Lin <chris.haoyul@gmail.com>, Jiangshan Yu <jiangshan.yu@monash.edu>",#2266,Last Call,Standards Track,ERC,2019-08-17,2020-12-31
+
+2294,Explicit bound to Chain ID size,Adds a maximum value to the Chain ID parameter to avoid potential encoding issues that may occur when using large values of the parameter.,"Zainan Victor Zhou (@xinbenlv), Alex Beregszaszi (@axic)",https://ethereum-magicians.org/t/eip-2294-explicit-bound-to-chain-id/11090,Review,Standards Track,Core,2019-09-19,155
+
+2304,Multichain address resolution for ENS,Nick Johnson <nick@ens.domains>,Standards Track,ERC,Stagnant,2019-09-09,https://discuss.ens.domains/t/new-standard-proposal-ens-multicoin-support/1148,137
+
+2309,ERC-721 Consecutive Transfer Extension,Sean Papanikolas (@pizzarob),#2309,Final,Standards Track,ERC,2019-10-08,721
+
+2315,Simple Subroutines for the EVM,"Two opcodes for efficient, safe, and static subroutines.","Greg Colvin (@gcolvin), Martin Holst Swende (@holiman), Brooklyn Zelenka (@expede), John Max Skaller <skaller@internode.on.net>",https://ethereum-magicians.org/t/eip-2315-simple-subroutines-for-the-evm/3941,Withdrawn,Standards Track,Core,2019-10-17,"3540, 3670, 4200",This proposal has been superceded by the EOF proposals.
+
+2327,BEGINDATA opcode,Martin Lundfall (@MrChico),https://ethereum-magicians.org/t/new-opcode-begindata/3727,Stagnant,Standards Track,Core,2019-10-28
+
+233,Formal process of hard forks,Alex Beregszaszi (@axic),https://ethereum-magicians.org/t/eip-233-formal-process-of-hard-forks/1387,Meta,Stagnant,2017-03-23
+
+2330,EXTSLOAD opcode,A new EVM opcode to read external contract storage data.,"Dominic Letz (@dominicletz), Santiago Palladino (@spalladino)",https://ethereum-magicians.org/t/eip-2330-extsload-and-abi-for-lower-gas-cost-and-off-chain-apps/3733,Stagnant,Standards Track,Core,2019-10-29,2929
+
+2333,BLS12-381 Key Generation,Carl Beekhuizen <carl@ethereum.org>,#2337,Stagnant,Standards Track,ERC,2019-09-30
+
+2334,BLS12-381 Deterministic Account Hierarchy,Carl Beekhuizen <carl@ethereum.org>,#2338,Stagnant,Standards Track,ERC,2019-09-30,2333
+
+2335,BLS12-381 Keystore,Carl Beekhuizen <carl@ethereum.org>,#2339,Stagnant,Standards Track,ERC,2019-09-30,"2333, 2334"
+
+234,Add `blockHash` to JSON-RPC filter options.,Micah Zoltu (@MicahZoltu),#234,Standards Track,Interface,Final,2017-03-24,1474
+
+2364,eth/64: forkid-extended protocol handshake,Introduces validation of the `forkid` when handshaking with peers.,"Péter Szilágyi <peterke@gmail.com>, Péter Szilágyi (@karalabe), Tim Beiko (@timbeiko)",#2365,Final,Standards Track,Networking,2019-11-08,2124
+
+2378,EIPs Eligible for Inclusion,James Hancock (@MadeofTin),https://gitter.im/ethereum/EIPs,Stagnant,Meta,2019-11-13
+
+2384,Muir Glacier Difficulty Bomb Delay,Eric Conner (@econoar),https://ethereum-magicians.org/t/eip-2384-difficulty-bomb-delay,Standards Track,Core,Final,2019-11-20
+
+2386,Ethereum 2 Hierarchical Deterministic Walletstore,Jim McDonald <Jim@mcdee.net>,https://ethereum-magicians.org/t/eip-2386-walletstore/3792,Stagnant,Standards Track,ERC,2019-11-21,"2334, 2335"
+
+2387,Hardfork Meta: Muir Glacier,James Hancock (@madeoftin),https://ethereum-magicians.org/t/hard-fork-to-address-the-ice-age-eip-2387,Meta,Final,2019-11-22,"1679, 2384"
+
+2390,Geo-ENS,James Choncholas (@james-choncholas),#2959,Stagnant,Standards Track,ERC,2019-11-15,"137, 165, 1062, 1185"
+
+2400,Transaction Receipt URI,URI format for submitted transactions with complete information for transaction decoding,"Ricardo Guilherme Schmidt (@3esmit), Eric Dvorsak (@yenda)",https://ethereum-magicians.org/t/eip-2400-transaction-receipt-uri/,Stagnant,Standards Track,ERC,2019-11-05,"155, 681"
+
+2458,Updates and Updated-by Header,Edson Ayllon (@edsonayllon),#2453,Withdrawn,Informational,2020-01-06
+
+2464,eth/65: transaction announcements and retrievals,"Introduces `NewPooledTransactionHashes`, `GetPooledTransactions`, and `PooledTransactions`.","Péter Szilágyi <peterke@gmail.com>, Péter Szilágyi (@karalabe), Gary Rong <garyrong0905@gmail.com>, Tim Beiko (@timbeiko)",#2465,Final,Standards Track,Networking,2020-01-13,2364
+
+2470,Singleton Factory,Ricardo Guilherme Schmidt (@3esmit),https://ethereum-magicians.org/t/erc-2470-singleton-factory/3933,Stagnant,Standards Track,ERC,2020-01-15,1014
+
+2474,Coinbase calls,Ricardo Guilherme Schmidt (@3esmit),https://ethresear.ch/t/gas-abstraction-non-signed-block-validator-only-procedures/4388/2,Stagnant,Standards Track,Core,2020-01-19
+
+2477,Token Metadata Integrity,"Kristijan Sedlak (@xpepermint), William Entriken <github.com@phor.net>, Witek Radomski <witek@enjin.io>",#2483,Standards Track,ERC,Stagnant,2020-01-02,"165, 721, 1155"
+
+2481,eth/66 request identifier,Introduces a request id for all requests of the eth protocol,Christoph Burgdorf (@cburgdorf),https://ethereum-magicians.org/t/eip-2481-eth-66-request-identifiers/12132,Final,Standards Track,Networking,2020-01-17,2464
+
+2488,Deprecate the CALLCODE opcode,Alex Beregszaszi (@axic),https://ethereum-magicians.org/t/eip-2488-deprecate-the-callcode-opcode/3957,Stagnant,Standards Track,Core,2019-12-20,7
+
+2494,Baby Jubjub Elliptic Curve,"Barry WhiteHat (@barryWhiteHat), Marta Bellés (@bellesmarta), Jordi Baylina (@jbaylina)",https://ethereum-magicians.org/t/eip-2494-baby-jubjub-elliptic-curve/3968,Stagnant,Standards Track,ERC,2020-01-29
+
+2515,Implement Difficulty Freeze,James Hancock (@madeoftin),https://ethereum-magicians.org/t/eip-2515-replace-the-difficulty-bomb-with-a-difficulty-freeze/3995,Stagnant,Standards Track,Core,2020-02-10
+
+2520,Multiple contenthash records for ENS,Filip Štamcar (@filips123),#2393,Stagnant,Standards Track,ERC,2020-02-18,1577
+
+2525,ENSLogin,Hadrien Croubois (@amxx),https://ethereum-magicians.org/t/discussion-ens-login/3569,Stagnant,Standards Track,ERC,2020-02-19,"137, 634, 1193, 2304"
+
+2535,"Diamonds, Multi-Facet Proxy",Create modular smart contract systems that can be extended after deployment.,Nick Mudge (@mudgen),https://ethereum-magicians.org/t/discussion-for-eip2535-diamonds/10459/,Final,Standards Track,ERC,2020-02-22
+
+2537,Precompile for BLS12-381 curve operations,"Alex Vlasov (@shamatar), Kelly Olson (@ineffectualproperty)",https://ethereum-magicians.org/t/eip2537-bls12-precompile-discussion-thread/4187,Stagnant,Standards Track,Core,2020-02-21
+
+2539,BLS12-377 curve operations,Alex Vlasov (@shamatar),https://ethereum-magicians.org/t/eip-2539-bls12-377-precompile-discussion-thread/4659,Stagnant,Standards Track,Core,2020-02-26,"1109, 2046"
+
+2542,New opcodes TXGASLIMIT and CALLGASLIMIT,Alex Forshtat <forshtat1@gmail.com>,https://ethereum-magicians.org/t/eip-2542-add-txgaslimit-callgaslimit-txgasrefund-opcodes,Stagnant,Standards Track,Core,2020-02-29
+
+2544,ENS Wildcard Resolution,"Adds support for ""wildcard"" resolution of subdomains in ENS.","Nick Johnson (@arachnid), 0age (@0age)",https://ethereum-magicians.org/t/eip-2544-ens-wildcard-resolution,Stagnant,Standards Track,ERC,2020-02-28,137
+
+2565,ModExp Gas Cost,"Kelly Olson (@ineffectualproperty), Sean Gulley (@sean-sn), Simon Peffers (@simonatsn), Justin Drake (@justindrake), Dankrad Feist (@dankrad)",https://ethereum-magicians.org/t/big-integer-modular-exponentiation-eip-198-gas-cost/4150,Final,Standards Track,Core,2020-03-20,198
+
+2566,Human Readable Parameters for Contract Function Execution,Joseph Stockermans (@jstoxrocky),https://ethereum-magicians.org/t/human-readable-parameters-for-contract-function-execution/4154,Stagnant,Standards Track,Interface,2020-03-23
+
+2569,Saving and Displaying Image Onchain for Universal Tokens,"A set of interfaces to save an SVG image in Ethereum, and to retrieve the image file from Ethereum for universal tokens.","Hua Zhang (@dgczhh), Yuefei Tan (@whtyfhas), Derek Zhou (@zhous), Ran Xing (@lemontreeran)",https://ethereum-magicians.org/t/erc-2569-saving-and-displaying-image-onchain-for-universal-tokens/4167,Stagnant,Standards Track,ERC,2020-03-28
+
+2583,Penalty for account trie misses,Martin Holst Swende (@holiman),https://ethereum-magicians.org/t/eip-2583-penalties-for-trie-misses/4190,Stagnant,Standards Track,Core,2020-02-21
+
+2584,Trie format transition with overlay trees,Guillaume Ballet (@gballet),https://ethresear.ch/t/overlay-method-for-hex-bin-tree-conversion/7104,Stagnant,Standards Track,Core,2020-04-03
+
+2593,Escalator fee market change for ETH 1.0 chain,Dan Finlay <dan@danfinlay.com>,https://ethresear.ch/t/another-simple-gas-fee-model-the-escalator-algorithm-from-the-agoric-papers/6399,Stagnant,Standards Track,Core,2020-03-13
+
+2612,Permit Extension for EIP-20 Signed Approvals,EIP-20 approvals via EIP-712 secp256k1 signatures,Martin Lundfall (@Mrchico),#2613,Final,Standards Track,ERC,2020-04-13,"20, 712"
+
+2615,Non-Fungible Token with mortgage and rental functions,Kohshi Shiba <kohshi.shiba@gmail.com>,#2616,Stagnant,Standards Track,ERC,2020-04-25,"165, 721"
+
+2645,Hierarchical Deterministic Wallet for Layer-2,"Tom Brand <tom@starkware.co>, Louis Guthmann <louis@starkware.co>",https://ethereum-magicians.org/t/hierarchical-deterministic-wallet-for-computation-integrity-proof-cip-layer-2/4286,Stagnant,Standards Track,ERC,2020-05-13
+
+2657,Ephemeral Testnet Yolo,James Hancock (@madeoftin),https://gitter.im/ethereum/AllCoreDevs,Stagnant,Meta,2020-04-19
+
+2666,Repricing of precompiles and Keccak256 function,Alex Vlasov (@shamatar),https://ethereum-magicians.org/t/eip2666-global-precompiles-repricing-and-many-more-discussion-thread/4332,Stagnant,Standards Track,Core,2020-05-22,"1352, 2046, 2565"
+
+2677,Limit size of `initcode`,"Martin Holst Swende (@holiman), Paweł Bylica (@chfast), Alex Beregszaszi (@axic)",https://ethereum-magicians.org/t/eip-2677-limit-size-of-initcode/4550,Withdrawn,Standards Track,Core,2020-05-18,Replaced by EIP-3860.
+
+2678,Revised Ethereum Smart Contract Packaging Standard (EthPM v3),"g. nicholas d’andrea (@gnidan), Piper Merriam (@pipermerriam), Nick Gheorghita (@njgheorghita), Christian Reitwiessner (@chriseth), Ben Hauser (@iamdefinitelyahuman), Bryant Eisenbach (@fubuloubu)",https://ethereum-magicians.org/t/ethpm-v3-specification-working-group/4086,Final,Standards Track,ERC,2020-05-26
+
+2680,Ethereum 2 wallet layout,Jim McDonald <Jim@mcdee.net>,https://ethereum-magicians.org/t/eip-2680-ethereum-2-wallet-layout/4323,Stagnant,Standards Track,ERC,2020-05-29
+
+2681,Limit account nonce to 2^64-1,Alex Beregszaszi (@axic),https://ethereum-magicians.org/t/eip-2681-limit-account-nonce-to-2-64-1/4324,Final,Standards Track,Core,2020-04-25
+
+2696,JavaScript `request` method RPC transport,"Micah Zoltu (@MicahZoltu), Erik Marks (@rekmarks)",#2697,Final,Standards Track,Interface,2020-06-04
+
+2700,JavaScript Provider Event Emitter,"Micah Zoltu (@MicahZoltu), Erik Marks (@rekmarks)",#2701,Final,Standards Track,Interface,2020-06-05
+
+2711,"Sponsored, expiring and batch transactions.",Micah Zoltu (@MicahZoltu),https://ethereum-magicians.org/t/eip-2711-separate-gas-payer-from-msg-sender/4353,Withdrawn,Standards Track,Core,2020-06-11,2718
+
+2718,Typed Transaction Envelope,Defines a new transaction type that is an envelope for future transaction types.,Micah Zoltu (@MicahZoltu),https://ethereum-magicians.org/t/eip-2718-typed-transaction-envelope/4355,Final,Standards Track,Core,2020-06-13
+
+2733,Transaction Package,Matt Garnett (@lightclient),https://ethereum-magicians.org/t/eip-transaction-package/4365,Withdrawn,Standards Track,Core,2020-06-16,2718,I have decided to pursue EIP-3074 as the preferred solution to transaction packages.
+
+2746,Rules Engine Standard,"Aaron Kendall (@jaerith), Juan Blanco (@juanfranblanco)",https://ethereum-magicians.org/t/eip-2746-rules-engine-interface/4435,Stagnant,Standards Track,ERC,2020-06-20
+
+2767,Contract Ownership Governance,"Soham Zemse (@zemse), Nick Mudge (@mudgen)",#2766,Stagnant,Standards Track,ERC,2020-07-04,"20, 165, 173"
+
+2770,Meta-Transactions Forwarder Contract,"Alex Forshtat (@forshtat), Dror Tirosh (@drortirosh)",https://ethereum-magicians.org/t/erc-2770-meta-transactions-forwarder-contract/5391,Stagnant,Standards Track,ERC,2020-07-01,"712, 2771"
+
+2771,Secure Protocol for Native Meta Transactions,A contract interface for receiving meta transactions through a trusted forwarder,"Ronan Sandford (@wighawag), Liraz Siri (@lirazsiri), Dror Tirosh (@drortirosh), Yoav Weiss (@yoavw), Alex Forshtat (@forshtat), Hadrien Croubois (@Amxx), Sachin Tomar (@tomarsachin2271), Patrick McCorry (@stonecoldpat), Nicolas Venturo (@nventuro), Fabian Vogelsteller (@frozeman), Gavin John (@Pandapip1)",https://ethereum-magicians.org/t/erc-2771-secure-protocol-for-native-meta-transactions/4488,Final,Standards Track,ERC,2020-07-01
+
+2780,Reduce intrinsic transaction gas,"Matt Garnett (@lightclient), Uri Klarman (@uriklarman)",https://ethereum-magicians.org/t/eip-2780-reduce-intrinsic-cost-of-transactions/4413,Withdrawn,Standards Track,Core,2020-07-11
+
+2786,Ethereum Provider Connect/Disconnect Events,"Micah Zoltu (@MicahZoltu), Erik Marks (@rekmarks)",#2787,Withdrawn,Standards Track,Interface,2020-07-15,2700
+
+2803,Rich Transactions,Support 'rich transactions' by allowing transactions from externally owned accounts to execute bytecode directly.,Micah Zoltu (@MicahZoltu),https://ethereum-magicians.org/t/rich-transactions-via-evm-bytecode-execution-from-externally-owned-accounts/4025,Stagnant,Standards Track,Core,2020-07-18
+
+2831,Transaction Replacement Message Type,Gregory Markou (@GregTheGreek),https://ethereum-magicians.org/t/eip-2831-transaction-replacement-message-type/4448,Stagnant,Standards Track,Interface,2020-07-26,1193
+
+2844,Add DID related methods to the JSON-RPC,Joel Thorstensson (@oed),#2845,Stagnant,Standards Track,Interface,2020-08-01
+
+2848,My Own Messages (MOM),Giuseppe Bertone (@Neurone),InternetOfPeers#1,Stagnant,Standards Track,ERC,2020-08-02
+
+2876,Deposit contract and address standard,Jonathan Underwood (@junderw),junderw/deposit-contract-poc#1,Stagnant,Standards Track,ERC,2020-08-13
+
+2917,Staking Reward Calculation,"Tony Carson <tony.carsonn@gmail.com>, Mehmet Sabir Kiraz <m.kiraz@gmail.com>, Süleyman Kardaş <skardas@gmail.com>",#2925,Stagnant,Standards Track,ERC,2020-08-28
+
+2926,Chunk-Based Code Merkleization,"Sina Mahmoodi (@s1na), Alex Beregszaszi (@axic)",https://ethereum-magicians.org/t/eip-2926-chunk-based-code-merkleization/4555,Stagnant,Standards Track,Core,2020-08-25,"161, 170, 2584"
+
+2929,Gas cost increases for state access opcodes,"Vitalik Buterin (@vbuterin), Martin Swende (@holiman)",https://ethereum-magicians.org/t/eip-2929-gas-cost-increases-for-state-access-opcodes/4558,Final,Standards Track,Core,2020-09-01
+
+2930,Optional access lists,"Vitalik Buterin (@vbuterin), Martin Swende (@holiman)",https://ethereum-magicians.org/t/eip-2930-optional-access-lists/4561,Final,Standards Track,Core,2020-08-29,"2718, 2929"
+
+2935,Save historical block hashes in state,"Vitalik Buterin (@vbuterin), Tomasz Stanczak (@tkstanczak)",https://ethereum-magicians.org/t/eip-2935-save-historical-block-hashes-in-state/4565,Stagnant,Standards Track,Core,2020-09-03
+
+2936,EXTCLEAR Opcode For SELFDESTRUCTed contracts,William Morriss (@wjmelements),https://ethereum-magicians.org/t/eip-2936-extclear-for-selfdestruct/4569,Stagnant,Standards Track,Core,2020-09-03
+
+2937,SET_INDESTRUCTIBLE opcode,Vitalik Buterin (@vbuterin),https://ethereum-magicians.org/t/eip-2937-set-indestructible/4571,Stagnant,Standards Track,Core,2020-09-04
+
+2938,Account Abstraction,"Vitalik Buterin (@vbuterin), Ansgar Dietrichs (@adietrichs), Matt Garnett (@lightclient), Will Villanueva (@villanuevawill), Sam Wilson (@SamWilsn)",https://ethereum-magicians.org/t/eip-2938-account-abstraction/4630,Stagnant,Standards Track,Core,2020-09-04,2718
+
+2942,EthPM URI Specification,"Nick Gheorghita (@njgheorghita), Piper Merriam (@pipermerriam), g. nicholas d'andrea (@gnidan), Benjamin Hauser (@iamdefinitelyahuman)",https://ethereum-magicians.org/t/ethpm-v3-specification-working-group/4086/7,Stagnant,Standards Track,ERC,2020-09-04,2678
+
+2970,IS_STATIC opcode,Vitalik Buterin (@vbuterin),https://ethereum-magicians.org/t/is-static-opcode-useful-for-aa/4609,Stagnant,Standards Track,Core,2020-09-13
+
+2972,Wrapped Legacy Transactions,Micah Zoltu (@MicahZoltu),https://ethereum-magicians.org/t/eip-2972-wrapped-legacy-transactions/4604,Withdrawn,Standards Track,Core,2020-09-12,"155, 2718"
+
+2976,Typed Transactions over Gossip,Adds support for transmission of typed transactions over devp2p.,Micah Zoltu (@MicahZoltu),https://ethereum-magicians.org/t/eip-2976-eth-typed-transactions-over-gossip/4610,Final,Standards Track,Networking,2020-09-13,2718
+
+2980,Swiss Compliant Asset Token,"An interface for asset tokens, compliant with Swiss Law and compatible with [ERC-20](./eip-20.md).","Gianluca Perletti (@Perlets9), Alan Scarpellini (@alanscarpellini), Roberto Gorini (@robertogorini), Manuel Olivi (@manvel79)",#2983,Stagnant,Standards Track,ERC,2020-09-08,20
+
+2981,NFT Royalty Standard,"Zach Burks (@vexycats), James Morgan (@jamesmorgan), Blaine Malone (@blmalone), James Seibel (@seibelj)",#2907,Final,Standards Track,ERC,2020-09-15,165
+
+2982,Serenity Phase 0,"Phase 0 of the release schedule of Serenity, a series of updates to Ethereum a scalable, proof-of-stake consensus","Danny Ryan (@djrtwo), Vitalik Buterin (@vbuterin)",https://ethereum-magicians.org/t/serenity-phase-0-eip/4621,Final,Informational,2020-09-15
+
+2997,IMPERSONATECALL Opcode,Sergio Demian Lerner (@SergioDemianLerner),https://ethresear.ch/t/impersonatecall-opcode/8020,Core,Standards Track,Stagnant,2020-09-24
+
+3,Addition of CALLDEPTH opcode,Martin Holst Swende <martin@swende.se>,Withdrawn,Standards Track,Core,2015-11-19
+
+3000,Optimistic enactment governance standard,"Jorge Izquierdo (@izqui), Fabien Marino (@bonustrack)",#3042,Stagnant,Standards Track,ERC,2020-09-24
+
+3005,Batched meta transactions,Matt (@defifuture),https://ethereum-magicians.org/t/eip-3005-the-economic-viability-of-batched-meta-transactions/4673,Stagnant,Standards Track,ERC,2020-09-25
+
+3009,Transfer With Authorization,"Peter Jihoon Kim (@petejkim), Kevin Britz (@kbrizzle), David Knott (@DavidLKnott)",#3010,Stagnant,Standards Track,ERC,2020-09-28,"20, 712"
+
+3014,eth_symbol JSON-RPC method,Peter Grassberger (@PeterTheOne),#3012,Stagnant,Standards Track,Interface,2020-09-30
+
+3026,BW6-761 curve operations,"Youssef El Housni (@yelhousni), Michael Connor (@iAmMichaelConnor), Aurore Guillevic <aurore.guillevic@inria.fr>",https://ethereum-magicians.org/t/eip-3026-bw6-761-curve-operations/4790,Stagnant,Standards Track,Core,2539,2020-10-05
+
+3030,BLS Remote Signer HTTP API,Herman Junge (@hermanjunge),https://ethereum-magicians.org/t/eip-3030-bls-remote-signer-http-api-standard/4810,Stagnant,Standards Track,Interface,2020-09-30
+
+3041,Adds `baseFee` to `eth_getBlockByHash`,Abdelhamid Bakhta (@abdelhamidbakhta),https://ethereum-magicians.org/t/eip-3041-add-basefee-in-eth-getblockbyhash-response/4825,Stagnant,Standards Track,Interface,2020-10-13,"1474, 1559"
+
+3044,Adds `baseFee` to `eth_getBlockByNumber`,Abdelhamid Bakhta (@abdelhamidbakhta),https://ethereum-magicians.org/t/eip-3044-add-basefee-to-eth-getblockbynumber/4828,Stagnant,Standards Track,Interface,2020-10-14,"1474, 1559"
+
+3045,Adds `baseFee` to `eth_getUncleByBlockHashAndIndex`,Abdelhamid Bakhta (@abdelhamidbakhta),https://ethereum-magicians.org/t/add-basefee-to-eth-getunclebyblockhashandindex/4829,Stagnant,Standards Track,Interface,2020-10-14,"1474, 1559"
+
+3046,Adds `baseFee` to `eth_getUncleByBlockNumberAndIndex`,Abdelhamid Bakhta (@abdelhamidbakhta),https://ethereum-magicians.org/t/add-basefee-to-eth-getunclebyblocknumberandindex/4830,Stagnant,Standards Track,Interface,2020-10-14,"1474, 1559"
+
+3068,Precompile for BN256 HashToCurve Algorithms,Dr. Christopher Gorman (@chgormanMH),https://ethereum-magicians.org/t/pre-compile-for-bls/3973,Stagnant,Standards Track,Core,2020-10-23,"198, 1108"
+
+3074,AUTH and AUTHCALL opcodes,Allow externally owned accounts to delegate control to a contract.,"Sam Wilson (@SamWilsn), Ansgar Dietrichs (@adietrichs), Matt Garnett (@lightclient), Micah Zoltu (@micahzoltu)",https://ethereum-magicians.org/t/eip-3074-sponsored-transaction-precompile/4880,Review,Standards Track,Core,2020-10-15,155
+
+3076,Slashing Protection Interchange Format,A JSON interchange format for proof of stake validators to migrate slashing protection data between clients.,"Michael Sproul (@michaelsproul), Sacha Saint-Leger (@sachayves), Danny Ryan (@djrtwo)",https://ethereum-magicians.org/t/eip-3076-validator-client-interchange-format-slashing-protection/,Last Call,Standards Track,Interface,2020-10-27,2021-11-03
+
+3085,Wallet Add Ethereum Chain RPC Method (`wallet_addEthereumChain`),"Erik Marks (@rekmarks), Pedro Gomes (@pedrouid)",https://ethereum-magicians.org/t/eip-3085-wallet-addethereumchain/5469,Stagnant,Standards Track,Interface,2020-11-01,"155, 695"
+
+3091,Block Explorer API Routes,Pedro Gomes (@pedrouid),https://ethereum-magicians.org/t/eip-3091-block-explorer-api-routes/4907,Stagnant,Standards Track,Interface,2020-11-02
+
+3102,Binary trie structure,"Guillaume Ballet (@gballet), Vitalik Buterin (@vbuterin)",Draft,https://ethresear.ch/t/binary-trie-format/7621,Standards Track,Core,2020-09-01
+
+3135,Exclusive Claimable Token,Zhenyu Sun (@Ungigdu),#3132,Stagnant,Standards Track,ERC,2020-08-10,20
+
+3143,Increase block rewards to 5 ETH,Ben Tinner (@Terra854),https://ethereum-magicians.org/t/eip-3143-increase-block-rewards-to-5-eth/5061,Stagnant,Standards Track,Core,2020-12-01
+
+3155,EVM trace specification,"Martin Holst Swende (@holiman), Marius van der Wijden (@MariusVanDerWijden)",https://ethereum-magicians.org/t/eip-3155-create-evm-trace-specification/5007,Stagnant,Standards Track,Interface,2020-12-07
+
+3156,Flash Loans,"Alberto Cuesta Cañada (@albertocuestacanada), Fiona Kobayashi (@fifikobayashi), fubuloubu (@fubuloubu), Austin Williams (@onewayfunction)",https://ethereum-magicians.org/t/erc-3156-flash-loans-review-discussion/5077,Final,Standards Track,ERC,2020-11-15
+
+3198,BASEFEE opcode,"Abdelhamid Bakhta (@abdelhamidbakhta), Vitalik Buterin (@vbuterin)",https://ethereum-magicians.org/t/eip-3198-basefeeopcode/5162,Final,Standards Track,Core,2021-01-13,1559
+
+3220,Crosschain Identifier Specification,"Weijia Zhang (@weijia31415), Peter Robinson (@drinkcoffee)",https://ethereum-magicians.org/t/eip-3220-crosschain-id-specification/5446,Stagnant,Standards Track,Core,2020-10-21
+
+3224,Described Data,Contract method to compute human-readable descriptions for signable data.,"Richard Moore (@ricmoo), Nick Johnson (@arachnid)",#3225,Stagnant,Standards Track,ERC,2021-01-23,191
+
+3234,Batch Flash Loans,"Alberto Cuesta Cañada (@albertocuestacanada), Fiona Kobayashi (@fifikobayashi), fubuloubu (@fubuloubu), Austin Williams (@onewayfunction)",https://ethereum-magicians.org/t/erc-3234-batch-flash-loans/5271,Stagnant,Standards Track,ERC,2021-01-31
+
+3238,Difficulty Bomb Delay to Q2/2022,Afri Schoedon (@q9f),#3239,Standards Track,Core,Stagnant,2021-01-25
+
+3267,Giving Ethereum fees to Future Salaries,"Victor Porton (@vporton), Victor Porton <porton@narod.ru>",https://ethereum-magicians.org/t/discussion-of-eip-3267/5343,Stagnant,Standards Track,Core,2021-02-13
+
+3298,Removal of refunds,"Vitalik Buterin (@vbuterin), Martin Swende (@holiman)",https://ethereum-magicians.org/t/eip-3298-removal-of-refunds/5430,Stagnant,Standards Track,Core,2021-02-26
+
+3300,Phase out refunds,William Morriss (@wjmelements),https://ethereum-magicians.org/t/eip-3300-phase-out-refunds/5434,Stagnant,Standards Track,Core,2020-02-26
+
+3322,Account gas storage opcodes,William Morriss (@wjmelements),https://ethereum-magicians.org/t/eip-3322-efficient-gas-storage/5470,Stagnant,Standards Track,Core,2020-03-04
+
+3326,Wallet Switch Ethereum Chain RPC Method (`wallet_switchEthereumChain`),Erik Marks (@rekmarks),https://ethereum-magicians.org/t/eip-3326-wallet-switchethereumchain,Stagnant,Standards Track,Interface,2021-03-04,"155, 695"
+
+3332,MEDGASPRICE Opcode,Justice Hudson (@jchancehud),https://ethereum-magicians.org/t/medgasprice-opcode-eip/5480,Withdrawn,Standards Track,Core,2021-03-05
+
+3336,Paged memory allocation for the EVM,Nick Johnson (@arachnid),https://ethereum-magicians.org/t/eips-3336-and-3337-improving-the-evms-memory-model/5482,Stagnant,Standards Track,Core,2021-03-06
+
+3337,Frame pointer support for memory load and store operations,Nick Johnson (@arachnid),https://ethereum-magicians.org/t/eips-3336-and-3337-improving-the-evms-memory-model/5482,Stagnant,Standards Track,Core,2021-03-06,3336
+
+3338,Limit account nonce to 2^52,"Micah Zoltu (@MicahZoltu), Alex Beregszaszi (@axic)",https://ethereum-magicians.org/t/eip-2681-limit-account-nonce-to-2-64-1/4324,Withdrawn,Withdrawn in favor of [EIP-2681](./eip-2681.md),Standards Track,Core,2021-03-07
+
+3368,"Increase block rewards to 3 ETH, with 2 Year Decay to 1 ETH Scheduled",Michael D. Carter (@BitsBeTrippin),https://ethereum-magicians.org/t/eip-3368-block-reward-increase-w-decay-for-next-two-years/5550,Stagnant,Standards Track,Core,2021-03-12
+
+3372,5 FNV primes for ethash,Stagnant,Standards Track,Core,"mineruniter969 (@mineruniter969), mineruniter969 <mineruniter969@tutanota.com>",https://ethereum-magicians.org/t/eip-3372-apply-minor-modifications-to-the-ethash-algorithm-to-break-current-asic-implementations-eip-969-resubmission/5655,2021-03-13
+
+3374,Predictable Proof-of-Work (POW) Sunsetting,Query0x (@Query0x),https://ethereum-magicians.org/t/eip-3374-predictable-proof-of-work-sunsetting,Withdrawn,Standards Track,Core,2021-03-13
+
+3382,Hardcoded Block Gas Limit,Philippe Castonguay (@PhABC),https://ethereum-magicians.org/t/eip-3382-hardcoded-gas-limit,Withdrawn,The author prefers [EIP-3756](./eip-3756.md),Standards Track,Core,2021-03-13
+
+3386,ERC-721 and ERC-1155 to ERC-20 Wrapper,Calvin Koder (@ashrowz),#3384,Stagnant,Standards Track,ERC,2021-03-12,165
+
+3403,Partial removal of refunds,"Vitalik Buterin (@vbuterin), Martin Swende (@holiman)",https://ethereum-magicians.org/t/eip-3298-removal-of-refunds/5430,Stagnant,Standards Track,Core,2021-03-16
+
+3416,Median Gas Premium,"HexZorro (@hexzorro), Mojtaba Tefagh (@mtefagh)",https://ethereum-magicians.org/t/eip-3416-median-gas-premium/5755,Stagnant,Standards Track,Core,2021-03-18
+
+3436,Expanded Clique Block Choice Rule,Danno Ferrin (@shemnon),https://ethereum-magicians.org/t/eip-3436-expanded-clique-block-choice-rule/5809,Stagnant,Standards Track,Core,2021-03-25,225
+
+3440,ERC-721 Editions Standard,Nathan Ginnever (@nginnever),https://ethereum-magicians.org/t/eip-3340-nft-editions-standard-extension/6044,Stagnant,Standards Track,ERC,2021-04-20,"712, 721"
+
+3448,MetaProxy Standard,A minimal bytecode implementation for creating proxy contracts with immutable metadata attached to the bytecode,pinkiebell (@pinkiebell),https://ethereum-magicians.org/t/erc-3448-metaproxy-factory/5834,Final,Standards Track,ERC,2021-03-29
+
+3450,Standardized Shamir Secret Sharing Scheme for BIP-39 Mnemonics,Daniel Streit (@danielstreit),https://ethereum-magicians.org/t/erc-3450-standard-for-applying-shamirs-to-bip-39-mnemonics/5844,Stagnant,Standards Track,ERC,2021-03-29
+
+3455,SUDO Opcode,A new opcode is introduced to allow calling from an arbitrary sender address.,"William Morriss (@wjmelements), Baptiste Vauthey (@thabaptiser)",https://ethereum-magicians.org/t/eip-3455-sudo-opcode/5860,Draft,Standards Track,Core,2021-04-01
+
+3475,Abstract Storage Bonds,Interface for creating tokenized obligations with abstract on-chain metadata storage,"Yu Liu (@yuliu-debond), Varun Deshpande (@dr-chain), Cedric Ngakam (@drikssy), Dhruv Malik (@dhruvmalik007), Samuel Gwlanold Edoumou (@Edoumou), Toufic Batrice (@toufic0710)",https://ethereum-magicians.org/t/eip-3475-multiple-callable-bonds-standard/8691,Final,Standards Track,ERC,2021-04-05,"20, 721, 1155"
+
+3508,Transaction Data Opcodes,Alex Papageorgiou (@alex-ppg),https://ethereum-magicians.org/t/eip-draft-transaction-data-opcodes/6017,Stagnant,Standards Track,Core,2021-04-16
+
+3520,Transaction Destination Opcode,Alex Papageorgiou (@alex-ppg),https://ethereum-magicians.org/t/eip-3520-transaction-destination-opcode/6058,Stagnant,Standards Track,Core,2021-04-16,3508
+
+3521,Reduce access list cost,Matt Garnett (@lightclient),https://ethereum-magicians.org/t/eip-3521-reduce-access-list-cost/6072,Stagnant,Standards Track,Core,2021-04-15,"2028, 2930"
+
+3525,Semi-Fungible Token,Defines a specification where ERC-721 compatible tokens with the same SLOT and different IDs are fungible.,"Will Wang (@will42w), Mike Meng <myan@solv.finance>, Yi Cai (@YeeTsai) <yee.tsai@gmail.com>, Ryan Chow <ryanchow@solv.finance>, Zhongxin Wu (@Nerverwind), AlvisDu (@AlvisDu)",https://ethereum-magicians.org/t/eip-3525-the-semi-fungible-token,Final,Standards Track,ERC,2020-12-01,"20, 165, 721"
+
+3529,Reduction in refunds,"Vitalik Buterin (@vbuterin), Martin Swende (@holiman)",https://ethereum-magicians.org/t/eip-3529-reduction-in-refunds-alternative-to-eip-3298-and-3403-that-better-preserves-existing-clearing-incentives/6097,Final,Standards Track,Core,2021-04-22,"2200, 2929, 2930"
+
+3534,Restricted Chain Context Type Transactions,Isaac Ardis (@whilei),https://ethereum-magicians.org/t/eip-3534-restricted-chain-context-transaction-type/6112,Stagnant,Standards Track,Core,2021-04-20,"2718, 2930"
+
+3540,EOF - EVM Object Format v1,EOF is an extensible and versioned container format for EVM bytecode with a once-off validation at deploy time.,"Alex Beregszaszi (@axic), Paweł Bylica (@chfast), Andrei Maiboroda (@gumb0), Matt Garnett (@lightclient)",https://ethereum-magicians.org/t/evm-object-format-eof/5727,Review,Standards Track,Core,2021-03-16,"3541, 3860, 4750, 5450"
+
+3541,Reject new contract code starting with the 0xEF byte,"Alex Beregszaszi (@axic), Paweł Bylica (@chfast), Andrei Maiboroda (@gumb0), Alexey Akhunov (@AlexeyAkhunov), Christian Reitwiessner (@chriseth), Martin Swende (@holiman)",https://ethereum-magicians.org/t/evm-object-format-eof/5727,Final,Standards Track,Core,2021-03-16
+
+3554,Difficulty Bomb Delay to December 2021,James Hancock (@madeoftin),https://ethereum-magicians.org/t/eip-3554-ice-age-delay-targeting-december-2021/6188,Final,Standards Track,Core,2021-05-06
+
+3561,Trust Minimized Upgradeability Proxy,proxy with a delay before specified upgrade goes live,Sam Porter (@SamPorter1984),https://ethereum-magicians.org/t/trust-minimized-proxy/5742,Review,Standards Track,ERC,2021-05-09
+
+3569,Sealed NFT Metadata Standard,Sean Papanikolas (@pizzarob),https://ethereum-magicians.org/t/eip-3569-sealed-nft-metadata-standard/7130,Stagnant,Standards Track,ERC,2021-05-07
+
+3584,Block Access List,"Gajinder Singh (@g11in), Piper Merriam (@pipermerriam)",https://ethresear.ch/t/block-access-list-v0-1/9505,Stagnant,Standards Track,Core,2021-05-22,"2929, 2930"
+
+3589,Assemble assets into NFTs,"Zhenyu Sun (@Ungigdu), Xinqi Yang (@xinqiyang)",#3590,Stagnant,Standards Track,ERC,2021-05-24,721
+
+3607,Reject transactions from senders with deployed code,Do not allow transactions for which `tx.sender` has any code deployed.,"Dankrad Feist (@dankrad), Dmitry Khovratovich (@khovratovich), Marius van der Wijden (@MariusVanDerWijden)",#3608,Final,Standards Track,Core,2021-06-10
+
+3643,T-REX - Token for Regulated EXchanges,An institutional grade security token standard that provides interfaces for the management and compliant transfer of security tokens.,"Joachim Lebrun (@Joachim-Lebrun), Tony Malghem (@TonyMalghem), Kevin Thizy (@Nakasar), Luc Falempin (@lfalempin), Adam Boudjemaa (@Aboudjem)",Standards Track,ERC,Stagnant,"20, 1822",https://ethereum-magicians.org/t/eip-3643-proposition-of-the-t-rex-token-standard-for-securities/6844,2021-07-09
+
+3651,Warm COINBASE,Starts the `COINBASE` address warm,William Morriss (@wjmelements),https://ethereum-magicians.org/t/eip-3651-warm-coinbase/6640,Final,Standards Track,Core,2021-07-12,2929
+
+3668,CCIP Read: Secure offchain data retrieval,CCIP Read provides a mechanism to allow a contract to fetch external data.,Nick Johnson (@arachnid),https://ethereum-magicians.org/t/durin-secure-offchain-data-retrieval/6728,Final,Standards Track,ERC,2020-07-19
+
+3670,EOF - Code Validation,Validate EOF bytecode for correctness at the time of deployment.,"Alex Beregszaszi (@axic), Andrei Maiboroda (@gumb0), Paweł Bylica (@chfast)",https://ethereum-magicians.org/t/eip-3670-eof-code-validation/6693,Review,Standards Track,Core,2021-06-23,3540
+
+3675,Upgrade consensus to Proof-of-Stake,Specification of the consensus mechanism upgrade on Ethereum Mainnet that introduces Proof-of-Stake,"Mikhail Kalinin (@mkalinin), Danny Ryan (@djrtwo), Vitalik Buterin (@vbuterin)",https://ethereum-magicians.org/t/eip-3675-upgrade-consensus-to-proof-of-stake/6706,Final,Standards Track,Core,2021-07-22,2124
+
+3690,EOF - JUMPDEST Table,"A special EOF section for storing the list of JUMPDESTs, which simplifies execution time analysis.","Alex Beregszaszi (@axic), Paweł Bylica (@chfast), Andrei Maiboroda (@gumb0)",https://ethereum-magicians.org/t/eip-3690-eof-jumpdest-table/6806,Stagnant,Standards Track,Core,2021-06-23,"3540, 3670"
+
+3709,Remove Support for Type 1 Transactions,Gregory Markou (@GregTheGreek),https://ethereum-magicians.org/t/eip-3709-deprecate-type-1-transactions/6810,Stagnant,Standards Track,Interface,2021-08-07,1559
+
+3722,Poster,A ridiculously simple general purpose social media smart contract.,Auryn Macmillan (@auryn-macmillan),https://ethereum-magicians.org/t/eip-poster-a-ridiculously-simple-general-purpose-social-media-smart-contract/6751,Stagnant,Standards Track,ERC,2021-07-31
+
+3754,A Vanilla Non-Fungible Token Standard,NFTs for representing abstract ownership,Simon Tian (@simontianx),#3753,Stagnant,Standards Track,ERC,2021-08-21
+
+3756,Gas Limit Cap,Set an in-protocol cap for the gas limit,lightclient (@lightclient),https://ethereum-magicians.org/t/eip-3756-gas-limit-cap/6921,Stagnant,Standards Track,Core,2021-08-21
+
+3770,Chain-specific addresses,Prepending chain-specific addresses with a human-readable chain identifier,"Lukas Schor (@lukasschor), Richard Meissner (@rmeissner), Pedro Gomes (@pedrouid), ligi <ligi@ligi.de>",https://ethereum-magicians.org/t/chain-specific-addresses/6449,Review,Standards Track,ERC,2021-08-26
+
+3772,Compressed Integers,"Using lossy compression on uint256 to improve gas costs, ideally by a factor up to 4x.",Soham Zemse (@zemse),#3772,Stagnant,Standards Track,ERC,2021-08-27
+
+3779,Safer Control Flow for the EVM,Ensure an essential level of safety for EVM code.,"Greg Colvin (@gcolvin), Greg Colvin <greg@colvin.org>, Brooklyn Zelenka (@expede)",https://ethereum-magicians.org/t/eip-3779-safe-control-flow-for-the-evm/6975,Withdrawn,Standards Track,Core,2021-08-30,material moved to EIP-2315
+
+3788,Strict enforcement of chainId,Reject transactions that do not explicitly have the same chainId as the node's configuration.,Gregory Markou (@GregTheGreek),https://ethereum-magicians.org/t/discussion-to-eip-3788-strict-enforcement-of-chainid/7001,Stagnant,Standards Track,Core,2021-09-02,155
+
+3855,PUSH0 instruction,Introduce a new instruction which pushes the constant value 0 onto the stack,"Alex Beregszaszi (@axic), Hugo De la cruz (@hugo-dc), Paweł Bylica (@chfast)",https://ethereum-magicians.org/t/eip-3855-push0-instruction/7014,Final,Standards Track,Core,2021-02-19
+
+3860,Limit and meter initcode,Limit the maximum size of initcode to 49152 and apply extra gas cost of 2 for every 32-byte chunk of initcode,"Martin Holst Swende (@holiman), Paweł Bylica (@chfast), Alex Beregszaszi (@axic), Andrei Maiboroda (@gumb0)",https://ethereum-magicians.org/t/eip-3860-limit-and-meter-initcode/7018,Final,Standards Track,Core,2021-07-16,170
+
+3978,Gas refunds on reverts,Reprice reverted SSTORE/CREATE/SELFDESTRUCT/LOGX operations gas via gas refund mechanism,"Anton Bukov (@k06a), Mikhail Melnik (@ZumZoom)",https://ethereum-magicians.org/t/eip-3978-gas-refunds-on-reverts/7071/,Stagnant,Standards Track,Core,2021-09-16,2022-02-14,2929
+
+4,EIP Classification,Joseph Chow (@ethers),Final,Meta,2015-11-17
+
+4200,EOF - Static relative jumps,"RJUMP, RJUMPI and RJUMPV instructions with a signed immediate encoding the jump destination","Alex Beregszaszi (@axic), Andrei Maiboroda (@gumb0), Paweł Bylica (@chfast)",https://ethereum-magicians.org/t/eip-3920-static-relative-jumps/7108,Review,Standards Track,Core,2021-07-16,"3540, 3670"
+
+4337,Account Abstraction Using Alt Mempool,"An account abstraction proposal which completely avoids consensus-layer protocol changes, instead relying on higher-layer infrastructure.","Vitalik Buterin (@vbuterin), Yoav Weiss (@yoavw), Kristof Gazso (@kristofgazso), Namra Patel (@namrapatel), Dror Tirosh (@drortirosh), Shahaf Nacson (@shahafn), Tjaden Hess (@tjade273)",https://ethereum-magicians.org/t/erc-4337-account-abstraction-via-entry-point-contract-specification/7160,Draft,Standards Track,ERC,2021-09-29
+
+4341,Ordered NFT Batch Standard,The ordering information of multiple NFTs is retained and managed,Simon Tian (@simontianx),#3782,Stagnant,Standards Track,ERC,2021-10-01
+
+4345,Difficulty Bomb Delay to June 2022,Delays the difficulty bomb to be noticeable in June 2022.,"Tim Beiko (@timbeiko), James Hancock (@MadeOfTin), Thomas Jay Rush (@tjayrush)",https://ethereum-magicians.org/t/eip-4345-difficulty-bomb-delay-to-may-2022/7209,Final,Standards Track,Core,2021-10-05
+
+4353,Interface for Staked Tokens in NFTs,This interface enables access to publicly viewable staking data of an NFT.,"Rex Creed (@aug2uag), Dane Scarborough <dane@nftapps.us>",https://ethereum-magicians.org/t/eip-4353-viewing-staked-tokens-in-nft/7234,Stagnant,Standards Track,ERC,2021-10-08,165
+
+4361,Sign-In with Ethereum,Off-chain authentication for Ethereum accounts to establish sessions.,"Wayne Chang (@wyc), Gregory Rocco (@obstropolos), Brantly Millegan (@brantlymillegan), Nick Johnson (@Arachnid)",https://ethereum-magicians.org/t/eip-4361-sign-in-with-ethereum/7263,Review,Standards Track,ERC,2021-10-11,"55, 137, 155, 191, 1271, 1328"
+
+4393,Micropayments for NFTs and Multi Tokens,An interface for tip tokens that allows tipping to holders of NFTs and multi tokens,Jules Lai (@julesl23),https://ethereum-magicians.org/t/eip-proposal-micropayments-standard-for-nfts-and-multi-tokens/7366,Draft,Standards Track,ERC,2021-10-24,"165, 721, 1155"
+
+4396,Time-Aware Base Fee Calculation,Accounts for block time in the base fee calculation to target a stable throughput by time instead of by block.,Ansgar Dietrichs (@adietrichs),https://ethereum-magicians.org/t/eip-4396-time-aware-base-fee-calculation/7363,Stagnant,Standards Track,Core,2021-10-28
+
+4399,Supplant DIFFICULTY opcode with PREVRANDAO,Expose beacon chain randomness in the EVM by supplanting DIFFICULTY opcode semantics,"Mikhail Kalinin (@mkalinin), Danny Ryan (@djrtwo)",https://ethereum-magicians.org/t/eip-4399-supplant-difficulty-opcode-with-random/7368,Final,Standards Track,Core,2021-10-30,3675
+
+4400,EIP-721 Consumable Extension,Interface extension for EIP-721 consumer role,"Daniel Ivanov (@Daniel-K-Ivanov), George Spasov (@Perseverance)",https://ethereum-magicians.org/t/EIP-4400-EIP721consumer-extension/7371,Final,Standards Track,ERC,2021-10-30,"165, 721"
+
+4430,Described Transactions,A technique for contracts to provide a human-readable description of a transaction's side-effects.,"Richard Moore (@ricmoo), Nick Johnson (@arachnid)",https://ethereum-magicians.org/t/discussion-eip-4430-described-transactions/8762,Stagnant,Standards Track,ERC,2021-11-07
+
+4444,Bound Historical Data in Execution Clients,Prune historical data in clients older than one year,"George Kadianakis (@asn-d6), lightclient (@lightclient), Alex Stokes (@ralexstokes)",https://ethereum-magicians.org/t/eip-4444-bound-historical-data-in-execution-clients/7450,Stagnant,Standards Track,Networking,2021-11-02
+
+4488,Transaction calldata gas cost reduction with total calldata limit,Greatly decreases the gas cost of transaction calldata and simultaneously caps total transaction calldata in a block,"Vitalik Buterin (@vbuterin), Ansgar Dietrichs (@adietrichs)",https://ethereum-magicians.org/t/eip-4488-transaction-calldata-gas-cost-reduction-with-total-calldata-limit/7555,Standards Track,Core,Stagnant,2021-11-23
+
+4494,Permit for ERC-721 NFTs,ERC-712-singed approvals for ERC-721 NFTs,"Simon Fremaux (@dievardump), William Schwab (@wschwab)",https://ethereum-magicians.org/t/eip-extending-erc2612-style-permits-to-erc721-nfts/7519/2,Draft,Standards Track,ERC,2021-11-25,"165, 712, 721"
+
+4519,Non-Fungible Tokens Tied to Physical Assets,Interface for non-fungible tokens representing physical assets that can generate or recover their own accounts and obey users.,"Javier Arcenegui (@Hardblock-IMSE-CNM), Rosario Arjona (@RosarioArjona), Roberto Román <roman@imse-cnm.csic.es>, Iluminada Baturone (@lumi2018)",https://ethereum-magicians.org/t/new-proposal-of-smart-non-fungible-token/7677,Final,Standards Track,ERC,2021-12-03,"165, 721"
+
+4520,Mult-byte opcodes prefixed by EB and EC.,Reserve `0xEB` and `0xEC` for usage as extended opcode space.,"Brayton Goodall (@Spore-Druid-Bray), Mihir Faujdar (@uink45)",https://ethereum-magicians.org/t/multi-byte-opcodes/7681,Stagnant,Standards Track,Core,2021-12-01
+
+4521,721/20-compatible transfer,Recommends a simple extension to make NFTs compatible with apps and contracts that handle fungibles.,Ross Campbell (@z0r0z),https://ethereum-magicians.org/t/eip-4521-721-20-compatible-transfer/7903,Stagnant,Standards Track,ERC,2021-12-13,721
+
+4524,Safer ERC-20,Extending ERC-20 with ERC165 and adding safeTransfer (like ERC-721 and ERC-1155),William Schwab (@wschwab),https://ethereum-magicians.org/t/why-isnt-there-an-erc-for-safetransfer-for-erc20/7604,Stagnant,Standards Track,ERC,2021-12-05,"20, 165"
+
+4527,QR Code transmission protocol for wallets,QR Code data transmission protocol between wallets and offline signers.,"Aaron Chen (@aaronisme), Sora Lee (@soralit), ligi (@ligi), Dan Miller (@danjm), AndreasGassmann (@andreasgassmann), xardass (@xardass), Lixin Liu (@BitcoinLixin)",https://ethereum-magicians.org/t/add-qr-code-scanning-between-software-wallet-cold-signer-hardware-wallet/6568,Review,Standards Track,ERC,2021-12-07
+
+4546,Wrapped Deposits,A singleton contract for managing asset deposits.,Justice Hudson (@jchancehud),https://ethereum-magicians.org/t/wrapped-deposit-contract-eip/7740,Stagnant,Standards Track,ERC,2021-12-11
+
+4573,Procedures for the EVM,Introduces support for EVM Procedures.,Stagnant,Standards Track,Core,"Greg Colvin (@gcolvin), Greg Colvin <greg@colvin.org>",https://ethereum-magicians.org/t/eip-4573-named-procedures-for-evm-code-sections/7776,2021-12-16,"2315, 3540, 3670, 3779, 4200"
+
+4626,Tokenized Vaults,Tokenized Vaults with a single underlying EIP-20 token.,"Joey Santoro (@joeysantoro), t11s (@transmissions11), Jet Jadeja (@JetJadeja), Alberto Cuesta Cañada (@alcueca), Señor Doggo (@fubuloubu)",https://ethereum-magicians.org/t/eip-4626-yield-bearing-vault-standard/7900,Final,Standards Track,ERC,2021-12-22,"20, 2612"
+
+4671,Non-Tradable Tokens Standard,"A standard interface for non-tradable tokens, aka badges or souldbound NFTs.","Omar Aflak (@omaraflak), Pol-Malo Le Bris, Marvin Martin (@MarvinMartin24)",https://ethereum-magicians.org/t/eip-4671-non-tradable-token/7976,Stagnant,Standards Track,ERC,2022-01-13,165
+
+4675,Multi-Fractional Non-Fungible Tokens,Fractionalize multiple NFTs using a single contract,David Kim (@powerstream3604),https://ethereum-magicians.org/t/eip-4675-multi-fractional-non-fungible-token-standard/8008,Draft,Standards Track,ERC,2022-01-13,"165, 721"
+
+4736,Consensus Layer Withdrawal Protection,"Additional security for BLSToExecutionChange operation when a consensus layer mnemonic may be compromised, without changing consensus","Benjamin Chodroff (@benjaminchodroff), Jim McDonald (@mcdee)",https://ethereum-magicians.org/t/consensus-layer-withdrawal-protection/8161,Final,Standards Track,Interface,2022-01-30
+
+4747,Simplify EIP-161,Simplify EIP-161 and retroactively deprecate unused aspects of it,Peter Davies (@petertdavies),https://ethereum-magicians.org/t/eip-4747-simplify-eip-161/8246,Stagnant,Standards Track,Core,2022-02-02,161
+
+4750,EOF - Functions,Individual sections for functions with `CALLF` and `RETF` instructions,"Andrei Maiboroda (@gumb0), Alex Beregszaszi (@axic), Paweł Bylica (@chfast)",https://ethereum-magicians.org/t/eip-4750-eof-functions/8195,Review,Standards Track,Core,2022-01-10,"3540, 3670, 5450"
+
+4758,Deactivate SELFDESTRUCT,"Deactivate SELFDESTRUCT by changing it to SENDALL, which does recover all funds to the caller but does not delete any code or storage.","Guillaume Ballet (@gballet), Vitalik Buterin (@vbuterin), Dankrad Feist (@dankrad)",https://ethereum-magicians.org/t/eip-4758-deactivate-selfdestruct/8710,Review,Standards Track,Core,2022-02-03
+
+4760,SELFDESTRUCT bomb,Deactivate SELFDESTRUCT by changing it to SENDALL and stage this via a stage of exponential gas cost increases.,"Guillaume Ballet (@gballet), Vitalik Buterin (@vbuterin), Dankrad Feist (@dankrad)",https://ethereum-magicians.org/t/eip-4760-selfdestruct-bomb/8713,Stagnant,Standards Track,Core,2022-02-03
+
+4762,Statelessness gas cost changes,Changes the gas schedule to reflect the costs of creating a witness by requiring clients update their database layout to match.,"Guillaume Ballet (@gballet), Vitalik Buterin (@vbuterin), Dankrad Feist (@dankrad)",https://ethereum-magicians.org/t/eip-4762-statelessness-gas-cost-changes/8714,Stagnant,Standards Track,Core,2022-02-03
+
+4788,Beacon block root in the EVM,Expose beacon chain roots in the EVM,"Alex Stokes (@ralexstokes), Ansgar Dietrichs (@adietrichs), Danny Ryan (@djrtwo)",https://ethereum-magicians.org/t/eip-4788-beacon-root-in-evm/8281,Draft,Standards Track,Core,2022-02-10
+
+4799,Non-Fungible Token Ownership Designation Standard,A standardized interface for designating ownership of an NFT,"David Buckman (@davidbuckman), Isaac Buckman (@isaacbuckman)",https://ethereum-magicians.org/t/erc-4799-non-fungible-token-wrapping-standard/8396,Stagnant,Standards Track,ERC,2022-02-13,165
+
+4803,Limit transaction gas to a maximum of 2^63-1,Valid transactions must have a reasonable gas limit,Alex Beregszaszi (@axic),https://ethereum-magicians.org/t/eip-4803-limit-transaction-gas-to-a-maximum-of-2-63-1/8296,Stagnant,Standards Track,Core,2022-02-02
+
+4804,Web3 URL to EVM Call Message Translation,A translation of an HTTP-style Web3 URL to an EVM call message,"Qi Zhou (@qizhou), Chao Pi (@pichaoqkc), Sam Wilson (@SamWilsn)",https://ethereum-magicians.org/t/eip-4804-web3-url-to-evm-call-message-translation/8300,Final,Standards Track,ERC,2022-02-14,137
+
+4824,Common Interfaces for DAOs,An API for decentralized autonomous organizations (DAOs).,"Joshua Tan (@thelastjosh), Isaac Patka (@ipatka), Ido Gershtein <ido@daostack.io>, Eyal Eithcowich <eyal@deepdao.io>, Michael Zargham (@mzargham), Sam Furter (@nivida)",https://ethereum-magicians.org/t/eip-4824-decentralized-autonomous-organizations/8362,Draft,Standards Track,ERC,2022-02-17
+
+4834,Hierarchical Domains,Extremely generic name resolution,Gavin John (@Pandapip1),https://ethereum-magicians.org/t/erc-4834-hierarchical-domains-standard/8388,Final,Standards Track,ERC,2022-02-22
+
+4844,Shard Blob Transactions,"Shard Blob Transactions scale data-availability of Ethereum in a simple, forwards-compatible manner.","Vitalik Buterin (@vbuterin), Dankrad Feist (@dankrad), Diederik Loerakker (@protolambda), George Kadianakis (@asn-d6), Matt Garnett (@lightclient), Mofi Taiwo (@Inphi), Ansgar Dietrichs (@adietrichs)",https://ethereum-magicians.org/t/eip-4844-shard-blob-transactions/8430,Review,Standards Track,Core,2022-02-25,"1559, 2718, 2930, 4895"
+
+4863,Beacon chain push withdrawals,"Support validator withdrawals from the beacon chain to the EVM via a new ""push-style"" transaction type.","Alex Stokes (@ralexstokes), Danny Ryan (@djrtwo)",https://ethereum-magicians.org/t/eip-4863-beacon-chain-push-withdrawals/8465,Stagnant,Standards Track,Core,2022-02-28
+
+4881,Deposit Contract Snapshot Interface,Establishing the format and endpoint for transmitting a snapshot of the deposit Merkle tree,Mark Mackey (@ethDreamer),https://ethereum-magicians.org/t/eip-4881-deposit-contract-snapshot-interface/,Review,Standards Track,Interface,2021-01-29
+
+4883,Composable SVG NFT,Compose an SVG NFT by concatenating the SVG with the rendered SVG of another NFT.,"Andrew B Coathup (@abcoathup), Alex (@AlexPartyPanda), Damian Martinelli (@damianmarti), blockdev (@0xbok), Austin Griffith (@austintgriffith)",https://ethereum-magicians.org/t/eip-4883-composable-svg-nft/8765,Draft,Standards Track,ERC,2022-03-08,"165, 721"
+
+4885,Subscription NFTs and Multi Tokens,An interface for subscription tokens that gives holders subscriptions to NFTs and multi tokens,Jules Lai (@julesl23),https://ethereum-magicians.org/t/eip-subscription-token-standard/8531,Stagnant,Standards Track,ERC,2022-03-08,"165, 721, 1155"
+
+4886,Proxy Ownership Register,"A proxy ownership register allowing trustless proof of ownership between Ethereum addresses, with delegated asset delivery",Omnus Sunmo (@omnus),https://ethereum-magicians.org/t/eip-4886-a-proxy-ownership-and-asset-delivery-register/8559,Stagnant,Standards Track,ERC,2022-09-03
+
+4895,Beacon chain push withdrawals as operations,"Support validator withdrawals from the beacon chain to the EVM via a new ""system-level"" operation type.","Alex Stokes (@ralexstokes), Danny Ryan (@djrtwo)",https://ethereum-magicians.org/t/eip-4895-beacon-chain-withdrawals-as-system-level-operations/8568,Final,Standards Track,Core,2022-03-10
+
+4906,EIP-721 Metadata Update Extension,Add a MetadataUpdate event to EIP-721.,"Anders (@0xanders), Lance (@LanceSnow), Shrug <shrug@emojidao.org>, Nathan <nathan.gang@gemini.com>",https://ethereum-magicians.org/t/eip4906-erc-721-erc-1155-metadata-update-extension/8588,Final,Standards Track,ERC,2022-03-13,"165, 721"
+
+4907,"Rental NFT, an Extension of EIP-721",Add a time-limited role with restricted permissions to EIP-721 tokens.,"Anders (@0xanders), Lance (@LanceSnow), Shrug <shrug@emojidao.org>",https://ethereum-magicians.org/t/idea-erc-721-user-and-expires-extension/8572,Final,Standards Track,ERC,2022-03-11,"165, 721"
+
+4910,Royalty Bearing NFTs,"Extension of ERC-721 to correctly define, process, and pay (hierarchical) onchain NFT royalties.",Andreas Freund (@Therecanbeonlyone1969),https://ethereum-magicians.org/t/royalty-bearing-nfts/8453,Last Call,2023-03-31,Standards Track,ERC,2022-03-14,"165, 721"
+
+4931,Generic Token Upgrade Standard,Create a standard interface for upgrading ERC20 token contracts.,"John Peterson (@John-peterson-coinbase), Roberto Bayardo (@roberto-bayardo), David Núñez (@cygnusv)",https://ethereum-magicians.org/t/eip-4931-generic-token-upgrade-standard/8687,Stagnant,Standards Track,ERC,2021-11-02,20
+
+4938,eth/67 - Removal of GetNodeData,Remove GetNodeData and NodeData messages from the wire protocol,"Marius van der Wijden (@MariusVanDerWijden), Felix Lange <fjl@ethereum.org>, Gary Rong <garyrong@ethereum.org>",https://ethereum-magicians.org/t/eip-4938-removal-of-getnodedata/8893,Review,Standards Track,Networking,2022-03-23,"2464, 2481"
+
+4944,Contract with Exactly One Non-fungible Token,An ERC-721 compatible single-token NFT,"Víctor Muñoz (@victormunoz), Josep Lluis de la Rosa (@peplluis7), Andres El-Fakdi (@Bluezfish)",https://ethereum-magicians.org/t/erc721-minting-only-one-token/8602/2,Draft,Standards Track,ERC,2022-03-25,721
+
+4950,Entangled Tokens,ERC-721 extension with two tokens minted that are tied together,"Víctor Muñoz (@victormunoz), Josep Lluis de la Rosa (@peplluis7), Easy Innova (@easyinnova)",https://ethereum-magicians.org/t/entangled-tokens/8702,Draft,Standards Track,ERC,2022-03-28,"20, 721, 1155"
+
+4955,Vendor Metadata Extension for NFTs,Add a new field to NFT metadata to store vendor specific data,Ignacio Mazzara (@nachomazzara),https://ethereum-magicians.org/t/eip-4955-non-fungible-token-metadata-namespaces-extension/8746,Final,Standards Track,ERC,2022-03-29,"721, 1155"
+
+4972,Name-Owned Account,Name-Owned Account for Social Identity,"Shu Dong (@dongshu2013), Qi Zhou (@qizhou), Zihao Chen (@zihaoccc)",https://ethereum-magicians.org/t/eip-4972-name-owned-account/8822,Draft,Standards Track,ERC,2022-04-04,137
+
+4973,Account-bound Tokens,An interface for non-transferrable NFTs binding to an Ethereum account like a legendary World of Warcraft item binds to a character.,Tim Daubenschütz (@TimDaub),https://ethereum-magicians.org/t/eip-4973-non-transferrable-non-fungible-tokens-soulbound-tokens-or-badges/8825,Review,Standards Track,ERC,2022-04-01,"165, 712, 721, 1271"
+
+4974,Ratings,An interface for assigning and managing numerical ratings,Daniel Tedesco (@dtedesco1),https://ethereum-magicians.org/t/8805,Review,Standards Track,ERC,2022-04-02,165
+
+4987,Held token interface,Interface to query ownership and balance of held tokens,Devin Conley (@devinaconley),https://ethereum-magicians.org/t/eip-4987-held-token-standard-nfts-defi/7117,Review,Standards Track,ERC,2021-09-21,"20, 165, 721, 1155"
+
+5,Gas Usage for `RETURN` and `CALL*`,Christian Reitwiessner <c@ethdev.com>,Final,Standards Track,Core,2015-11-22
+
+5000,MULDIV instruction,Introduce a new instruction to perform x * y / z in 512-bit precision,"Harikrishnan Mulackal (@hrkrshnn), Alex Beregszaszi (@axic), Paweł Bylica (@chfast)",https://ethereum-magicians.org/t/muldiv-instruction/9930,Draft,Standards Track,Core,2022-03-14
+
+5003,Insert Code into EOAs with AUTHUSURP,Allow migrating away from ECDSA by deploying code in place of an externally owned account.,"Dan Finlay (@danfinlay), Sam Wilson (@SamWilsn)",https://ethereum-magicians.org/t/eip-5003-auth-usurp-publishing-code-at-an-eoa-address/8979,Stagnant,Standards Track,Core,2022-03-26,"3074, 3607"
+
+5005,Zodiac Modular Accounts,Composable interoperable programmable accounts,"Auryn Macmillan (@auryn-macmillan), Kei Kreutler (@keikreutler)",https://ethereum-magicians.org/t/eip-zodiac-a-composable-design-philosophy-for-daos/8963,Review,Standards Track,ERC,2022-04-14,165
+
+5006,"Rental NFT, NFT User Extension",Add a user role with restricted permissions to ERC-1155 tokens,"Lance (@LanceSnow), Anders (@0xanders), Shrug <shrug@emojidao.org>",https://ethereum-magicians.org/t/eip5006-erc-1155-usage-rights-extension/8941,Final,Standards Track,ERC,2022-04-12,"165, 1155"
+
+5007,"Time NFT, ERC-721 Time Extension",Add start time and end time to ERC-721 tokens.,"Anders (@0xanders), Lance (@LanceSnow), Shrug <shrug@emojidao.org>",https://ethereum-magicians.org/t/eip-5007-eip-721-time-extension/8924,Final,Standards Track,ERC,2022-04-13,"165, 721"
+
+5008,ERC-721 Nonce Extension,Add a `nonce` function to ERC-721.,"Anders (@0xanders), Lance (@LanceSnow), Shrug <shrug@emojidao.org>",https://ethereum-magicians.org/t/eip5008-eip-721-nonce-and-metadata-update-extension/8925,Last Call,2023-06-01,Standards Track,ERC,2022-04-10,"165, 721"
+
+5018,Filesystem-like Interface for Contracts,An interface to provide access to binary objects similar to filesystems.,Qi Zhou (@qizhou),https://ethereum-magicians.org/t/eip-5018-directory-standard/8958,Review,Standards Track,ERC,2022-04-18
+
+5022,Increase price of SSTORE from zero to non-zero to 40k gas,Green (@greenlucid),Stagnant,Standards Track,Core,2022-04-20,https://ethereum-magicians.org/t/eip-proposal-increase-cost-of-sstore-from-20k-to-x-when-creating-new-storage/7614
+
+5023,Shareable Non-Fungible Token,An interface for creating value-holding tokens shareable by multiple owners,"Jarno Marttila (@yaruno), Martin Moravek (@mmartinmo)",https://ethereum-magicians.org/t/new-nft-concept-shareable-nfts/8681,Final,Standards Track,ERC,2022-01-28,165
+
+5027,Remove the limit on contract code size,Change the limit on contract size from 24576 to infinity,Qi Zhou (@qizhou),https://ethereum-magicians.org/t/eip-5027-unlimit-contract-code-size/9010,Draft,Standards Track,Core,2022-04-21,"170, 2929, 2930"
+
+5050,Interactive NFTs with Modular Environments,Action messaging and discovery protocol for interactions on and between NFTs,Alexi (@alexi),https://ethereum-magicians.org/t/eip-5050-nft-interaction-standard/9922,Stagnant,Standards Track,ERC,2021-04-18,"165, 173, 721, 1155, 1820, 4906"
+
+5058,Lockable Non-Fungible Tokens,Lockable EIP-721 tokens,"Tyler (@radiocaca), Alex (@gojazdev), John (@sfumato00)",https://ethereum-magicians.org/t/eip-5058-erc-721-lockable-standard/9201,Draft,Standards Track,ERC,2022-04-30,"20, 165, 721"
+
+5065,Instruction for transferring ether,Instruction for just transferring ether without transferring the flow of execution,Mudit Gupta (@maxsam4),https://ethereum-magicians.org/t/eip-5065-instruction-for-transferring-ether/9107,Stagnant,Standards Track,Core,2022-04-30,2929
+
+5069,EIP Editor Handbook,Handy reference for EIP editors and those who want to become one,"Pooja Ranjan (@poojaranjan), Gavin John (@Pandapip1)",https://ethereum-magicians.org/t/pr-5069-eip-editor-handbook/9137,Living,Informational,2022-05-02,1
+
+5081,Expirable Trainsaction,This EIP adds a new transaction type of that includes expiration with a blocknum,"Zainan Victor Zhou (@xinbenlv), Nick Johnson (@Arachnid), Konrad Feldmeier <konrad@brainbot.com>",https://ethereum-magicians.org/t/eip-5081-expirable-transaction/9208,Draft,Standards Track,Core,2022-05-06,"155, 1559, 2718, 2929, 2930"
+
+5094,URL Format for Ethereum Network Switching,A way of representing various network configurations as URLs.,"Luc van Kampen (@lucemans), Jakob Helgesson (@svemat01), Joshua Hendrix (@thejoshuahendrix)",https://ethereum-magicians.org/t/5094-uri-format-for-ethereum-network-switching/9277,Stagnant,Standards Track,ERC,2022-05-13,"681, 831"
+
+5095,Principal Token,Principal tokens (zero-coupon tokens) are redeemable for a single underlying EIP-20 token at a future timestamp.,"Julian Traversa (@JTraversa), Robert Robbins (@robrobbins), Alberto Cuesta Cañada (@alcueca)",https://ethereum-magicians.org/t/eip-5095-principal-token-standard/9259,Stagnant,Standards Track,ERC,2022-05-01,"20, 2612"
+
+5114,Soulbound Badge,"A token that is attached to a ""soul"" at mint time and cannot be transferred after that.",Micah Zoltu (@MicahZoltu),https://ethereum-magicians.org/t/eip-5114-soulbound-token/9417,Review,Standards Track,ERC,2022-05-30
+
+5115,SY Token,Interface for wrapped yield-bearing tokens.,"Vu Nguyen (@mrenoon), Long Vuong (@UncleGrandpa925), Anton Buenavista (@ayobuenavista)",https://ethereum-magicians.org/t/eip-5115-super-composable-yield-token-standard/9423,Draft,Standards Track,ERC,2022-05-30,20
+
+5131,SAFE Authentication For ENS,Using ENS Text Records to facilitate safer and more convenient signing operations.,"Wilkins Chung (@wwhchung), Jalil Wahdatehagh (@jwahdatehagh), Cry (@crydoteth), Sillytuna (@sillytuna), Cyberpnk (@CyberpnkWin)",https://ethereum-magicians.org/t/eip-5131-ens-subdomain-authentication/9458,Stagnant,Standards Track,ERC,2022-06-03,"137, 181, 634"
+
+5133,Delaying Difficulty Bomb to mid-September 2022,"Delays the difficulty bomb by a further 700000 blocks, to the middle of September 2022.","Tomasz Kajetan Stanczak (@tkstanczak), Eric Marti Haynes (@ericmartihaynes), Josh Klopfenstein (@joshklop), Abhimanyu Nag (@AbhiMan1601)",https://ethereum-magicians.org/t/eip-5133-delaying-difficulty-bomb-to-mid-september-2022/9622,Final,Standards Track,Core,2022-06-01
+
+5139,Remote Procedure Call Provider Lists,Format for lists of RPC providers for Ethereum-like chains.,Sam Wilson (@SamWilsn),https://ethereum-magicians.org/t/eip-5139-remote-procedure-call-provider-lists/9517,Draft,Standards Track,ERC,2022-06-06,"155, 1577"
+
+5143,Slippage Protection for Tokenized Vault,An extension of EIP-4626 supporting improved EOA interactions.,Hadrien Croubois (@amxx),https://ethereum-magicians.org/t/eip-5143-slippage-protection-for-tokenized-vaults/9554,Stagnant,Standards Track,ERC,2022-06-09,"20, 4626"
+
+5164,Cross-Chain Execution,Defines an interface that supports execution across EVM networks.,"Brendan Asselstine (@asselstine), Pierrick Turelier (@PierrickGT), Chris Whinfrey (@cwhinfrey)",https://ethereum-magicians.org/t/eip-5164-cross-chain-execution/9658,Review,Standards Track,ERC,2022-06-14
+
+5169,Client Script URI for Token Contracts,Add a scriptURI to point to an executable script associated with the functionality of the token.,"James (@JamesSmartCell), Weiwu (@weiwu-zhang)",https://ethereum-magicians.org/t/eip-5169-client-script-uri-for-token-contracts/9674,Last Call,2023-05-12,Standards Track,ERC,2022-05-03,"20, 165, 721, 777, 1155"
+
+5173,NFT Future Rewards (nFR),A multigenerational reward mechanism that rewards‌ all ‌owners of non-fungible tokens (NFT).,"Yale ReiSoleil (@longnshort), dRadiant (@dRadiant), D Wang, PhD <david@iob.fi>",https://ethereum-magicians.org/t/non-fungible-future-rewards-token-standard/9203,Draft,Standards Track,ERC,2022-05-08,"165, 721"
+
+5185,NFT Updatable Metadata Extension,An interface extension for ERC-721/ERC-1155 controlled metadata updates,Christophe Le Bars (@clbrge),https://ethereum-magicians.org/t/erc-721-erc-1155-updatable-metadata-extension/9077,Stagnant,Standards Track,ERC,"721, 1155",2022-06-27
+
+5187,Extend EIP-1155 with rentable usage rights,Separate ownership and usage rights of EIP-1155 to allow users to use NFTs for an allotted time and return them to owners after expiration.,DerivStudio (@DerivStudio),https://ethereum-magicians.org/t/eip-draft-extending-erc1155-with-rentable-usage-rights/9553/4,Draft,Standards Track,ERC,2022-04-17,"165, 1155"
+
+5189,Account Abstraction via Endorsed Operations,An account abstraction proposal that avoids protocol changes while maintaining compatibility with existing smart contract wallets.,"Agustín Aguilar (@agusx1211), Philippe Castonguay (@phabc)",https://ethereum-magicians.org/t/erc-account-abstraction-via-endorsed-operations/9799,Standards Track,ERC,Stagnant,2022-06-29
+
+5192,Minimal Soulbound NFTs,Minimal interface for soulbinding EIP-721 NFTs,"Tim Daubenschütz (@TimDaub), Anders (@0xanders)",https://ethereum-magicians.org/t/eip-5192-minimal-soulbound-nfts/9814,Final,Standards Track,ERC,2022-07-01,"165, 721"
+
+5202,Blueprint contract format,Define a bytecode container format for indexing and utilizing blueprint contracts,"Charles Cooper (@charles-cooper), Edward Amor (@skellet0r)",https://ethereum-magicians.org/t/erc-5202-standard-factory-contract-format/9851,Last Call,2023-06-01,Standards Track,ERC,2022-06-23,170
+
+5216,EIP-1155 Approval By Amount Extension,Extension for EIP-1155 secure approvals,"Iván Mañús (@ivanmmurciaua), Juan Carlos Cantó (@EscuelaCryptoES)",https://ethereum-magicians.org/t/eip-erc1155-approval-by-amount/9898,Last Call,2022-11-12,Standards Track,ERC,2022-07-11,"20, 165, 1155"
+
+5218,NFT Rights Management,An interface for creating copyright licenses that transfer with an NFT.,"James Grimmelmann (@grimmelm), Yan Ji (@iseriohn), Tyler Kell (@relyt29)",https://ethereum-magicians.org/t/eip-5218-nft-rights-management/9911,Draft,Standards Track,ERC,2022-07-11,721
+
+5219,Contract Resource Requests,Allows the requesting of resources from contracts,Gavin John (@Pandapip1),https://ethereum-magicians.org/t/pr-5219-discussion-contract-rest/9907,Final,Standards Track,ERC,2022-07-10
+
+5247,Smart Contract Executable Proposal Interface,An interface to create and execute proposals.,Zainan Victor Zhou (@xinbenlv),https://ethereum-magicians.org/t/erc-5247-executable-proposal-standard/9938,Draft,Standards Track,ERC,2022-07-13
+
+5252,Account-bound Finance,An ERC-5114 extension that aids in preventing arbitrary loss of funds,"Hyungsuk Kang (@hskang9), Viktor Pernjek (@smuxx)",https://ethereum-magicians.org/t/pr-5252-discussion-account-bound-finance/10027,Review,Standards Track,ERC,2022-06-29,"20, 721, 1155, 5114"
+
+5267,Retrieval of EIP-712 domain,A way to describe and retrieve an EIP-712 domain to securely integrate EIP-712 signatures.,Francisco Giordano (@frangio),https://ethereum-magicians.org/t/eip-5267-retrieval-of-eip-712-domain/9951,Final,Standards Track,ERC,2022-07-14,"155, 712, 2612"
+
+5269,EIP/ERC Detection and Discovery,An interface to identify if major behavior or optional behavior specified in an ERC is supported for a given caller.,Zainan Victor Zhou (@xinbenlv),https://ethereum-magicians.org/t/erc5269-human-readable-interface-detection/9957,Review,Standards Track,ERC,2022-07-15,5750
+
+5283,Semaphore for Reentrancy Protection,A Precompile-based parallelizable reentrancy protection using the call stack,Sergio D. Lerner (@SergioDemianLerner),https://ethereum-magicians.org/t/eip-5283-a-semaphore-for-parallelizable-reentrancy-protection/10236,Stagnant,Standards Track,Core,2022-07-17,"20, 1283, 1352"
+
+5289,Ethereum Notary Interface,Allows Smart Contracts to be Legally Binding Off-Chain,Gavin John (@Pandapip1),https://ethereum-magicians.org/t/pr-5289-discussion-notary-interface/9980,Review,Standards Track,ERC,2022-07-16,"165, 5568"
+
+5298,ENS Trust to hold NFTs under ENS name,"An interface for a smart contract acting as a ""trust"" that holds tokens by ENS name.",Zainan Victor Zhou (@xinbenlv),https://ethereum-magicians.org/t/erc-eip-5198-ens-as-token-holder/10374,Review,Standards Track,ERC,2022-07-12,"137, 721, 1155"
+
+5313,Light Contract Ownership,An interface for identifying ownership of contracts,William Entriken (@fulldecent),https://ethereum-magicians.org/t/eip-5313-light-contract-ownership/10052,Final,Standards Track,ERC,2022-07-22,"165, 173"
+
+5334,EIP-721 User And Expires And Level Extension,Add a time-limited role with restricted permissions to EIP-721 tokens.,Yan (@yan253319066),https://ethereum-magicians.org/t/erc-721-user-and-expires-and-level-extension/10097,Draft,Standards Track,ERC,2022-07-25,"165, 721"
+
+5345,Silent Signing Extension for JSON-RPC,Temporary transaction signing without user interaction,"Stanley Wu (@fruit37), Mücahit Büyükyılmaz (@anndro), Muhammed Emin Aydın (@muhammedea)",https://ethereum-magicians.org/t/walletconnect-silent-signing-extension/10137,Stagnant,Standards Track,Interface,2022-07-26
+
+5375,NFT Author Information and Consent,An extension of EIP-721 for NFT authorship and author consent.,"Samuele Marro (@samuelemarro), Luca Donno (@lucadonnoh)",https://ethereum-magicians.org/t/eip-5375-nft-authorship/10182,Final,Standards Track,ERC,2022-07-30,"55, 155, 712, 721, 1155"
+
+5380,ERC-721 Entitlement Extension,Allows token owners to grant the ability for others to use specific properties of those tokens,"Gavin John (@Pandapip1), Tim Daubenschütz (@TimDaub)",https://ethereum-magicians.org/t/pr-5380-eip-4907-alternative-design/10190,Final,Standards Track,ERC,2022-03-11,"165, 721, 1046"
+
+5409,EIP-1155 Non-Fungible Token extension,Allow EIP-1155 to represent Non-Fungible Tokens (tokens who have a unique owner),Ronan Sandford (@wighawag),https://ethereum-magicians.org/t/eip-5409-non-fungible-token-extension-for-eip-1155/10240,Stagnant,Standards Track,ERC,2022-07-23,"165, 721, 1155"
+
+5437,Security Contact Interface,An interface for security notice using asymmetric encryption,Zainan Zhou (@xinbenlv),https://ethereum-magicians.org/t/erc-interface-for-security-contract/10303,Draft,Standards Track,ERC,2022-08-09,165
+
+5450,EOF - Stack Validation,Deploy-time validation of stack usage for EOF functions.,"Andrei Maiboroda (@gumb0), Paweł Bylica (@chfast), Alex Beregszaszi (@axic), Danno Ferrin (@shemnon)",https://ethereum-magicians.org/t/eip-5450-eof-stack-validation/10410,Review,Standards Track,Core,2022-08-12,"3540, 3670, 4200, 4750"
+
+5453,Endorsement - Permit for Any Functions,A general protocol for approving function calls in the same transaction rely on EIP-5750.,Zainan Victor Zhou (@xinbenlv),https://ethereum-magicians.org/t/erc-5453-endorsement-standard/10355,Draft,Standards Track,ERC,2022-08-12,"165, 712, 1271, 5750"
+
+5478,CREATE2COPY Opcode,Reducing the gas cost of contract creation with existing code,Qi Zhou (@qizhou),https://ethereum-magicians.org/t/eip-5478-reducing-the-gas-cost-of-contract-creation-with-existing-code/10419,Stagnant,Standards Track,Core,2022-08-17,"1014, 2929"
+
+5484,Consensual Soulbound Tokens,Interface for special NFTs with immutable ownership and pre-determined immutable burn authorization,Buzz Cai (@buzzcai),https://ethereum-magicians.org/t/eip-5484-consensual-soulbound-tokens/10424,Final,Standards Track,ERC,2022-08-17,"165, 721"
+
+5485,"Legitimacy, Jurisdiction and Sovereignty","An interface for identifying the legitimacy, jurisdiction and sovereignty.",Zainan Victor Zhou (@xinbenlv),https://ethereum-magicians.org/t/erc-5485-interface-for-legitimacy-jurisdiction-and-sovereignty/10425,Draft,Standards Track,ERC,2022-08-17,"165, 5247"
+
+5489,NFT Hyperlink Extension,"NFT Hyperlink Extension embeds hyperlinks onto NFTs, allowing users to click any hNFT and be transported to any url set by the owner.",IronMan_CH (@coderfengyun),https://ethereum-magicians.org/t/eip-5489-nft-hyperlink-extension/10431,Final,Standards Track,ERC,2022-08-16,"165, 721"
+
+5496,Multi-privilege Management NFT Extension,Create shareable multi-privilege NFTs for EIP-721,Jeremy Z (@wnft),https://ethereum-magicians.org/t/eip-5496-multi-privilege-management-extension-for-erc-721/10427,Last Call,2022-11-29,Standards Track,ERC,2022-07-30,721
+
+55,Mixed-case checksum address encoding,"Vitalik Buterin <vitalik.buterin@ethereum.org>, Alex Van de Sande <avsa@ethereum.org>",#55,Standards Track,ERC,Final,2016-01-14
+
+5501,Rental & Delegation NFT - EIP-721 Extension,Adds a conditional time-limited user role to EIP-721. This role can be delegated or borrowed.,"Jan Smrža (@smrza), David Rábel (@rabeles11), Tomáš Janča <tomas.janca@jtbstorage.eu>, Jan Bureš (@JohnyX89), DOBBYLABS (@DOBBYLABS)",https://ethereum-magicians.org/t/eip-tbd-rental-delegation-nft-erc-721-extension/10441,Draft,Standards Track,ERC,2022-08-18,"165, 721, 4400, 4907"
+
+5505,EIP-1155 asset backed NFT extension,Extends EIP-1155 to support crucial operations for asset-backed NFTs,liszechung (@liszechung),https://ethereum-magicians.org/t/eip-draft-erc1155-asset-backed-nft-extension/10437,Stagnant,Standards Track,ERC,2022-08-18,1155
+
+5507,Refundable Tokens,"Adds refund functionality to ERC-20, ERC-721, and ERC-1155 tokens","elie222 (@elie222), Gavin John (@Pandapip1)",https://ethereum-magicians.org/t/eip-5507-refundable-nfts/10451,Final,Standards Track,ERC,2022-08-19,"20, 165, 721, 1155"
+
+5516,Soulbound Multi-owner Tokens,"An interface for non-transferable, Multi-owner NFTs binding to Ethereum accounts","Lucas Martín Grasso Ramos (@LucasGrasso), Matias Arazi (@MatiArazi)",https://ethereum-magicians.org/t/EIP-5516-soulbound-multi-token-standard/10485,Review,Standards Track,ERC,2022-08-19,"165, 1155"
+
+5521,Referable NFT,An ERC-721 extension to construct reference relationships among NFTs,"Saber Yu (@OniReimu), Qin Wang <qin.wang@data61.csiro.au>, Shange Fu <shange.fu@monash.edu>, Shiping Chen <shiping.chen@data61.csiro.au>, Sherry Xu <xiwei.xu@data61.csiro.au>, Jiangshan Yu <jiangshan.yu@monash.edu>",https://ethereum-magicians.org/t/eip-x-erc-721-referable-nft/10310,Draft,Standards Track,ERC,2022-08-10,"165, 721"
+
+5528,Refundable Fungible Token,Allows refunds for EIP-20 tokens by escrow smart contract,StartfundInc (@StartfundInc),https://ethereum-magicians.org/t/eip-5528-refundable-token-standard/10494,Final,Standards Track,ERC,2022-08-16,20
+
+5539,Revocation List Registry,Registry of revocation lists for revoking arbitrary data.,"Philipp Bolte (@strumswell), Lauritz Leifermann (@lleifermann), Dennis von der Bey (@DennisVonDerBey)",https://ethereum-magicians.org/t/eip-5539-revocation-list-registry/10573,Draft,Standards Track,ERC,2022-08-26,712
+
+5553,Representing IP and its Royalty Structure,A way of representing intellectual property and its respective royalty structure on chain,Roy Osherove (@royosherove),https://ethereum-magicians.org/t/eip-5553-representing-intellectual-property-on-chain-with-royalty-rights/10551,Review,Standards Track,ERC,2022-08-17,"20, 721"
+
+5554,"NFT Legal Use, Repurposing, and Remixing","An interface for describing and enforcing the legal use and remix of an NFT. On-chain registry of rights, attribution and derivative links.","Isaac Patka (@ipatka), COALA Licensing Taskforce <info@coala.org>",https://ethereum-magicians.org/t/eip-5999-legal-use-sharing-repurposing-and-remixing-standard-compatible-with-creative-commons/10553,Draft,Standards Track,ERC,2022-07-07,5218
+
+5559,Cross Chain Write Deferral Protocol,The cross chain write deferral protocol provides a mechanism to defer the storage & resolution of mutations to off-chain handlers,"Paul Gauvreau (@0xpaulio), Nick Johnson (@arachnid)",https://ethereum-magicians.org/t/eip-cross-chain-write-deferral-protocol/10576,Stagnant,Standards Track,ERC,2022-06-23,712
+
+5560,Redeemable NFTs,Makes an NFT redeemable for a physical object,"Olivier Fernandez (@fernandezOli), Frédéric Le Coidic (@FredLC29), Julien Béranger (@julienbrg)",https://ethereum-magicians.org/t/eip-redeemable-nft-extension/10589,Stagnant,Standards Track,ERC,2022-08-30,"165, 721"
+
+5564,Stealth Addresses,"Private, non-interactive transfers and interactions","Toni Wahrstätter (@nerolation), Matt Solomon (@mds1), Ben DiFrancesco (@apbendi), Vitalik Buterin (@vbuterin)",https://ethereum-magicians.org/t/eip-5566-stealth-addresses-for-smart-contract-wallets/10614,Draft,Standards Track,ERC,2022-08-13
+
+5568,Revert Reason for Required Actions,Signal to wallets that an action is needed by returning a custom revert code,Gavin John (@Pandapip1),https://ethereum-magicians.org/t/eip-5568-revert-signals/10622,Review,Standards Track,ERC,2022-08-31,140
+
+5570,Digital Receipt Non-Fungible Tokens,"Non-Fungible Tokens as digital receipts for physical purchases, where the metadata represents a JSON receipt",Sean Darcy (@darcys22),https://ethereum-magicians.org/t/idea-standard-digital-receipts-using-erc-721/9908,Final,Standards Track,ERC,2022-09-01,721
+
+5573,"Sign-In with Ethereum Capabilities, ReCaps",Mechanism on top of Sign-In with Ethereum for informed consent to delegate capabilities with an extensible scope mechanism,"Oliver Terbu (@awoie), Jacob Ward (@cobward), Charles Lehner (@clehner), Sam Gbafa (@skgbafa), Wayne Chang (@wyc), Charles Cunningham (@chunningham)",https://ethereum-magicians.org/t/eip-5573-siwe-recap/10627,Draft,Standards Track,ERC,2021-07-20,4361
+
+5585,ERC-721 NFT Authorization,Allows NFT owners to authorize other users to use their NFTs.,"Veega Labs (@VeegaLabsOfficial), Sean NG (@ngveega), Tiger (@tiger0x), Fred (@apan), Fov Cao (@fovcao)",https://ethereum-magicians.org/t/nft-authorization-erc721-extension/10661,Review,Standards Track,ERC,2022-08-15,721
+
+5593,Restrict Ethereum Provider API Injection,Wallet guidance for restricting Ethereum Provider API access to secure contexts for improved privacy and security for wallet users.,"Yan Zhu (@diracdeltas), Brian R. Bondy (@bbondy), Andrea  Brancaleoni (@thypon), Kyle Den Hartog (@kdenhartog)",https://ethereum-magicians.org/t/rfc-limiting-provider-object-injection-to-secure-contexts/10670,Draft,Standards Track,Interface,2022-09-05,1193
+
+5604,NFT Lien,Extend EIP-721 to support putting liens on NFT,"Allen Zhou <allen@ubiloan.io>, Alex Qin <alex@ubiloan.io>, Zainan Victor Zhou (@xinbenlv)",https://ethereum-magicians.org/t/creating-a-new-erc-proposal-for-nft-lien/10683,Review,Standards Track,ERC,2022-09-05,"165, 721"
+
+5606,Multiverse NFTs,A universal representation of multiple related NFTs as a single digital asset across various platforms,"Gaurang Torvekar (@gaurangtorvekar), Khemraj Adhawade (@akhemraj), Nikhil Asrani (@nikhilasrani)",https://ethereum-magicians.org/t/eip-5606-multiverse-nfts-for-digital-asset-interoperability/10698,Final,Standards Track,ERC,2022-09-06,"721, 1155"
+
+5615,ERC-1155 Supply Extension,A simple mechanism to fetch token supply data from ERC-1155 tokens,Gavin John (@Pandapip1),https://ethereum-magicians.org/t/eip-5615-eip-1155-supply-extension/10732,Final,Standards Track,ERC,2023-05-25,1155
+
+5625,NFT Metadata JSON Schema dStorage Extension,Add a dStorage property to non-fungible tokens (NFTs) metadata JSON schema to provide decentralized storage information of NFT assets,Gavin Fu (@gavfu),https://ethereum-magicians.org/t/eip-5625-nft-metadata-json-schema-dstorage-extension/10754,Review,Standards Track,ERC,2022-09-08,"721, 1155"
+
+5630,New approach for encryption / decryption,defines a specification for encryption and decryption using Ethereum wallets.,"Firn Protocol (@firnprotocol), Fried L. Trout, Weiji Guo (@weijiguo)",https://ethereum-magicians.org/t/eip-5630-encryption-and-decryption/10761,Draft,Standards Track,ERC,2022-09-07
+
+5633,"Composable Soulbound NFT, EIP-1155 Extension",Add composable soulbound property to EIP-1155 tokens,HonorLabs (@honorworldio),https://ethereum-magicians.org/t/composable-soulbound-nft-eip-1155-extension/10773,Stagnant,Standards Track,ERC,2022-09-09,"165, 1155"
+
+5635,NFT Licensing Agreements,An oracle for retrieving NFT licensing agreements,"Timi (@0xTimi), 0xTriple7 (@ysqi)",https://ethereum-magicians.org/t/eip-5635-discussion-nft-licensing-agreement-standard/10779,Draft,Standards Track,ERC,2022-08-10,"165, 721, 1155, 2981"
+
+5639,Delegation Registry,Delegation of permissions for safer and more convenient signing operations.,"foobar (@0xfoobar), Wilkins Chung (@wwhchung) <wilkins@manifold.xyz>, ryley-o (@ryley-o), Jake Rockland (@jakerockland), andy8052 (@andy8052)",https://ethereum-magicians.org/t/eip-5639-delegation-registry/10949,Review,Standards Track,ERC,2022-09-09
+
+5643,Subscription NFTs,Add subscription-based functionality to EIP-721 tokens,cygaar (@cygaar),https://ethereum-magicians.org/t/eip-5643-subscription-nfts/10802,Review,Standards Track,ERC,2022-09-10,721
+
+5646,Token State Fingerprint,Unambiguous token state identifier,Naim Ashhab (@ashhanai),https://ethereum-magicians.org/t/eip-5646-discussion-token-state-fingerprint/10808,Final,Standards Track,ERC,2022-09-11,165
+
+5656,MCOPY - Memory copying instruction,An efficient EVM instruction for copying memory areas,"Alex Beregszaszi (@axic), Paul Dworzanski (@poemm), Jared Wasinger (@jwasinger), Casey Detrio (@cdetrio), Pawel Bylica (@chfast), Charles Cooper (@charles-cooper)",https://ethereum-magicians.org/t/eip-5656-mcopy-instruction/10890,Review,Standards Track,Core,2021-02-01
+
+5679,Token Minting and Burning,"An extension for minting and burning EIP-20, EIP-721, and EIP-1155 tokens",Zainan Victor Zhou (@xinbenlv),https://ethereum-magicians.org/t/erc-5679-mint-and-burn-tokens/10913,Final,Standards Track,ERC,2022-09-17,"20, 165, 721, 1155"
+
+5700,Bindable Token Interface,Interface for binding fungible and non-fungible tokens to assets.,Leeren (@leeren),https://ethereum-magicians.org/t/eip-5700-bindable-token-standard/11077,Draft,Standards Track,ERC,2022-09-22,"165, 721, 1155"
+
+5719,Signature replacement interface,Non-interactive replacing of smart contract wallet signatures that became stale due to configuration changes.,Agustin Aguilar (@Agusx1211),https://ethereum-magicians.org/t/erc-signature-replacing-for-smart-contract-wallets/11059,Draft,Standards Track,ERC,2022-09-26,1271
+
+5725,Transferable Vesting NFT,An interface for transferable vesting NFTs which release underlying tokens over time.,"Apeguru (@Apegurus), Marco De Vries <marco@paladinsec.co>, Mario <mario@paladinsec.co>, DeFiFoFum (@DeFiFoFum)",https://ethereum-magicians.org/t/eip-5725-transferable-vesting-nft/11099,Review,Standards Track,ERC,2022-09-08,721
+
+5727,Semi-Fungible Soulbound Token,"An interface for soulbound tokens, also known as badges or account-bound tokens, that can be both fungible and non-fungible.","Austin Zhu (@AustinZhu), Terry Chen <terry.chen@phaneroz.io>",https://ethereum-magicians.org/t/eip-5727-semi-fungible-soulbound-token/11086,Draft,Standards Track,ERC,2022-09-28,"165, 712, 721, 3525, 4906, 5192, 5484"
+
+5732,Commit Interface,A simple but general commit interface to support commit-reveal scheme.,"Zainan Victor Zhou (@xinbenlv), Matt Stam (@mattstam)",https://ethereum-magicians.org/t/erc-5732-simple-commit-interface-to-support-commit-reveal-schemes/11115,Final,Standards Track,ERC,2022-09-29,"165, 1271"
+
+5744,Latent Fungible Token,An interface for tokens that become fungible after a period of time.,"Cozy Finance (@cozyfinance), Tony Sheng (@tonysheng), Matt Solomon (@mds1), David Laprade (@davidlaprade), Payom Dousti (@payomdousti), Chad Fleming (@chad-js), Franz Chen (@Dendrimer)",https://ethereum-magicians.org/t/eip-5744-latent-fungible-token/11111,Draft,Standards Track,ERC,2022-09-29,"20, 2612"
+
+5749,The 'window.evmproviders' object,Add 'window.evmproviders' and suggest the eventual removal of 'window.ethereum',Kosala Hemachandra (@kvhnuke),https://ethereum-magicians.org/t/eip-5749-deprecate-window-ethereum/11195,Final,Standards Track,Interface,2022-10-04,1193
+
+5750,General Extensibility for Method Behaviors,Designating last param of dynamically sized bytes to be used for behavior extensions of methods.,Zainan Victor Zhou (@xinbenlv),https://ethereum-magicians.org/t/erc-5750-method-with-extra-data/11176,Final,Standards Track,ERC,2022-10-04,165
+
+5753,Lockable Extension for EIP-721,Interface for disabling token transfers (locking) and re-enabling them (unlocking).,Filipp Makarov (@filmakarov),https://ethereum-magicians.org/t/lockable-nfts-extension/8800,Draft,Standards Track,ERC,2022-10-05,"165, 721"
+
+5757,Process for Approving External Resources,Requirements and process for allowing new origins of external resources,Sam Wilson (@SamWilsn),https://ethereum-magicians.org/t/eip-5757-process-for-approving-external-resources/11215,Final,Meta,2022-09-30,1
+
+5773,Context-Dependent Multi-Asset Tokens,An interface for Multi-Asset tokens with context dependent asset type output controlled by owner's preference.,"Bruno Škvorc (@Swader), Cicada (@CicadaNCR), Steven Pineda (@steven2308), Stevan Bogosavljevic (@stevyhacker), Jan Turk (@ThunderDeliverer)",https://ethereum-magicians.org/t/multiresource-tokens/11326,Final,Standards Track,ERC,2022-10-10,"165, 721"
+
+5791,Physical Backed Tokens,Minimal interface for linking ownership of EIP-721 NFTs to a physical chip,"2pmflow (@2pmflow), locationtba (@locationtba), Cameron Robertson (@ccamrobertson), cygaar (@cygaar)",https://ethereum-magicians.org/t/physical-backed-tokens/11350,Draft,Standards Track,ERC,2022-10-17,"191, 721"
+
+5792,Wallet Function Call API,"Adds JSON-RPC methods for sending multiple function calls from the user's wallet, and checking their status",Moody Salem (@moodysalem),https://ethereum-magicians.org/t/eip-5792-wallet-abstract-transaction-send-api/11374,Draft,Standards Track,Interface,2022-10-17
+
+5793,eth/68 - Add tx type to tx announcement,Adds the transaction type and transaction size to tx announcement messages in the wire protocol,Marius van der Wijden (@MariusVanDerWijden),https://ethereum-magicians.org/t/eip-5793-eth-68-add-transaction-type-to-tx-announcement/11364,Review,Standards Track,Networking,2022-10-18,"2464, 2481, 4938"
+
+5805,Voting with delegation,"An interface for voting weight tracking, with delegation support","Hadrien Croubois (@Amxx), Francisco Giordano (@frangio)",https://ethereum-magicians.org/t/eip-5805-voting-with-delegation/11407,Review,Standards Track,ERC,2022-07-04,"712, 6372"
+
+5806,Delegate transaction,Adds a new transaction type that allows a EOAs to execute arbitrary code through delegation,Hadrien Croubois (@Amxx),https://ethereum-magicians.org/t/eip-5806-delegate-transaction/11409,Draft,Standards Track,Core,2022-10-20,"2718, 2930"
+
+5827,Auto-renewable allowance extension,Extension to enable automatic renewals on allowance approvals,"zlace (@zlace0x), zhongfu (@zhongfu), edison0xyz (@edison0xyz)",https://ethereum-magicians.org/t/eip-5827-auto-renewable-allowance-extension/10392,Draft,Standards Track,ERC,2022-10-22,"20, 165"
+
+5850,Complex Numbers stored in `bytes32` types,Store real and imaginary parts of complex numbers in the least significant and most significant 16 bytes respectively of a `bytes32` type.,Paul Edge (@genkifs),https://ethereum-magicians.org/t/eip-5850-store-real-and-imaginary-parts-of-complex-numbers-in-the-least-significant-and-most-significant-16-bytes-respectively-of-a-bytes32-type/11532,Draft,Standards Track,ERC,2022-10-29
+
+5851,On-Chain Verifiable Credentials,Interface for contracts that manage verifiable claims and identifiers as Soulbound tokens.,"Yu Liu (@yuliu-debond), Junyi Zhong (@Jooeys)",https://ethereum-magicians.org/t/eip-5815-kyc-certification-issuer-and-verifier-standard/11513,Draft,Standards Track,ERC,2022-10-18,"721, 1155, 1167, 1967, 3475"
+
+5883,Token Transfer by Social Recovery,On-Chain Social Recovery taking users' reputation into account & using a nearest-neighbour approach.,"Erhard Dinhobl (@mrqc), Kevin Riedl (@wsdt)",https://ethereum-magicians.org/t/eip-5806-delegate-transaction/11409,Draft,Standards Track,ERC,2022-07-19
+
+5902,Smart Contract Event Hooks,Format that allows contracts to semi-autonoumously respond to events emitted by other contracts,Simon Brown (@orbmis),https://ethereum-magicians.org/t/idea-smart-contract-event-hooks-standard/11503,Draft,Standards Track,ERC,2022-11-09,712
+
+5920,PAY opcode,"Introduces a new opcode, PAY, to send ether to an address without calling any of its functions","Gavin John (@Pandapip1), Zainan Victor Zhou (@xinbenlv)",https://ethereum-magicians.org/t/eip-5920-pay-opcode/11717,Review,Standards Track,Core,2022-03-14,2929
+
+5982,Role-based Access Control,An interface for role-based access control for smart contracts.,Zainan Victor Zhou (@xinbenlv),https://ethereum-magicians.org/t/eip-5982-role-based-access-control/11759,Review,Standards Track,ERC,2022-11-15,"165, 5750"
+
+5988,Add Poseidon hash function precompile,Add a precompiled contract which implements the hash function used in the Poseidon cryptographic hashing algorithm,"Abdelhamid Bakhta (@abdelhamidbakhta), Eli Ben Sasson (@Elistark), Avihu Levy (@avihu28), David Levit Gurevich (@DavidLevitGurevich)",https://ethereum-magicians.org/t/eip-5988-add-poseidon-hash-function-precompile/11772,Draft,Standards Track,Core,2022-11-15
+
+6,Renaming SUICIDE opcode,Hudson Jameson <hudson@hudsonjameson.com>,Final,Standards Track,Interface,2015-11-22
+
+600,Ethereum purpose allocation for Deterministic Wallets,"Nick Johnson (@arachnid), Micah Zoltu (@micahzoltu)",Standards Track,ERC,Final,https://ethereum-magicians.org/t/eip-erc-app-keys-application-specific-wallet-accounts/2742,2017-04-13
+
+601,Ethereum hierarchy for deterministic wallets,"Nick Johnson (@arachnid), Micah Zoltu (@micahzoltu)",Standards Track,ERC,Final,https://ethereum-magicians.org/t/eip-erc-app-keys-application-specific-wallet-accounts/2742,2017-04-13
+
+6046,Replace SELFDESTRUCT with DEACTIVATE,Change SELFDESTRUCT to not delete storage keys and use a special value in the account nonce to signal deactivation,Alex Beregszaszi (@axic),https://ethereum-magicians.org/t/almost-self-destructing-selfdestruct-deactivate/11886,Draft,Standards Track,Core,2022-11-25,"2681, 2929, 3529"
+
+6047,ERC-721 Balance indexing via Transfer event,Mandates emitting the Transfer event for ERC-721 NFTs during contract creation,Zainan Victor Zhou (@xinbenlv),https://ethereum-magicians.org/t/eip-xxx-require-erc721-to-always-emit-transfer/11894,Draft,Standards Track,ERC,2022-11-26,721
+
+6049,Deprecate SELFDESTRUCT,Deprecate SELFDESTRUCT by discouraging its use and warning about a potential future behavior change.,William Entriken (@fulldecent),https://ethereum-magicians.org/t/deprecate-selfdestruct/11907,Final,Meta,2022-11-27
+
+6051,Private Key Encapsulation,defines a specification for encapsulating private keys.,"Base Labs (@Base-Labs), Weiji Guo (@weiji-cryptonatty)",https://ethereum-magicians.org/t/private-key-encapsulation-to-move-around-securely-without-entering-seed/11604,Draft,Standards Track,Interface,2022-11-21
+
+6059,Parent-Governed Nestable Non-Fungible Tokens,An interface for Nestable Non-Fungible Tokens with emphasis on parent token's control over the relationship.,"Bruno Škvorc (@Swader), Cicada (@CicadaNCR), Steven Pineda (@steven2308), Stevan Bogosavljevic (@stevyhacker), Jan Turk (@ThunderDeliverer)",https://ethereum-magicians.org/t/eip-6059-parent-governed-nestable-non-fungible-tokens/11914,Final,Standards Track,ERC,2022-11-15,"165, 721"
+
+606,Hardfork Meta: Homestead,Alex Beregszaszi (@axic),Meta,Final,2017-04-23,"2, 7, 8"
+
+6065,Real Estate Token,An interface for real estate NFTs that extends ERC-721,"Alex (@Alex-Klasma), Ben Fusek (@bfusek), Daniel Fallon-Cyr (@dfalloncyr)",https://ethereum-magicians.org/t/updated-eip-6065-real-estate-token/11936,Review,Standards Track,ERC,2022-11-29,721
+
+6066,Signature Validation Method for NFTs,A way to verify signatures when the signing entity is an ERC-721 or ERC-1155 NFT,Jack Boyuan Xu (@boyuanx),https://ethereum-magicians.org/t/eip-6066-signature-validation-method-for-nfts/11943,Review,Standards Track,ERC,2022-11-29,"165, 721, 1155, 1271, 5750"
+
+607,Hardfork Meta: Spurious Dragon,Alex Beregszaszi (@axic),Meta,Final,2017-04-23,"155, 160, 161, 170, 608"
+
+608,Hardfork Meta: Tangerine Whistle,Alex Beregszaszi (@axic),Meta,Final,2017-04-23,"150, 779"
+
+609,Hardfork Meta: Byzantium,Alex Beregszaszi (@axic),Meta,Final,2017-04-23,"100, 140, 196, 197, 198, 211, 214, 607, 649, 658"
+
+6093,Custom errors for commonly-used tokens,Lists custom errors for common token implementations,"Ernesto García (@ernestognw), Francisco Giordano (@frangio), Hadrien Croubois (@Amxx)",https://ethereum-magicians.org/t/eip-6093-custom-errors-for-erc-tokens/12043,Draft,Standards Track,ERC,2022-12-06,"20, 721, 1155"
+
+6105,No Intermediary NFT Trading Protocol,Adds a marketplace functionality with more diverse royalty schemes to ERC-721,"5660-eth (@5660-eth), Silvere Heraudeau (@lambdalf-dev), Martin McConnell (@offgridgecko), Abu <team10kuni@gmail.com>, Wizard Wang",https://ethereum-magicians.org/t/eip6105-no-intermediary-nft-trading-protocol/12171,Final,Standards Track,ERC,2022-12-02,"20, 165, 721, 2981"
+
+6110,Supply validator deposits on chain,Provides validator deposits as a list of deposit operations added to the Execution Layer block,"Mikhail Kalinin (@mkalinin), Danny Ryan (@djrtwo)",https://ethereum-magicians.org/t/eip-6110-supply-validator-deposits-on-chain/12072,Draft,Standards Track,Core,2022-12-09
+
+6120,Universal Token Router,A single router contract enables tokens to be sent to application contracts in the transfer-and-call pattern instead of approve-then-call.,"Zergity (@Zergity), Ngo Quang Anh (@anhnq82), BerlinP (@BerlinP), Khanh Pham (@blackskin18)",https://ethereum-magicians.org/t/eip-6120-universal-token-router/12142,Review,Standards Track,ERC,2022-12-12,"20, 721, 1014, 1155"
+
+6122,Forkid checks based on timestamps,Modifies the forkid checks to work with timestamps and block numbers,Marius van der Wijden (@MariusVanDerWijden),https://ethereum-magicians.org/t/eip-6122-forkid-checks-based-on-timestamps/12130,Review,Standards Track,Networking,2022-12-13,2124
+
+6123,Smart Derivative Contract,A deterministic protocol for frictionless post-trade processing of OTC financial contracts,"Christian Fries (@cfries), Peter Kohl-Landgraf (@pekola), Alexandros Korpis (@kourouta)",https://ethereum-magicians.org/t/eip-6123-smart-derivative-contract-frictionless-processing-of-financial-derivatives/12134,Draft,Standards Track,ERC,2022-12-13
+
+6147,"Guard of NFT/SBT, an Extension of ERC-721","A new management role with an expiration date of NFT/SBT is defined, achieving the separation of transfer right and holding right.","5660-eth (@5660-eth), Wizard Wang",https://ethereum-magicians.org/t/guard-of-nft-sbt-an-extension-of-eip-721/12052,Final,Standards Track,ERC,2022-12-07,"165, 721"
+
+615,Subroutines and Static Jumps for the EVM,Stagnant,Standards Track,Core,"Greg Colvin <greg@colvin.org>, Brooklyn Zelenka (@expede), Paweł Bylica (@chfast), Christian Reitwiessner (@chriseth)",https://ethereum-magicians.org/t/eip-615-subroutines-and-static-jumps-for-the-evm-last-call/3472,2016-12-10
+
+6150,Hierarchical NFTs,"Hierarchical NFTs, an extension to EIP-721.","Keegan Lee (@keeganlee), msfew <msfew@hyperoracle.io>, Kartin <kartin@hyperoracle.io>, qizhou (@qizhou)",https://ethereum-magicians.org/t/eip-6150-hierarchical-nfts-an-extension-to-erc-721/12173,Final,Standards Track,ERC,2022-12-15,"165, 721"
+
+616,SIMD Operations for the EVM,Greg Colvin <greg@colvin.org>,Standards Track,Core,Stagnant,2017-04-25
+
+6170,Cross-Chain Messaging Interface,A common smart contract interface for interacting with messaging protocols.,Sujith Somraaj (@sujithsomraaj),https://ethereum-magicians.org/t/cross-chain-messaging-standard/12197,Draft,Standards Track,ERC,2022-12-19
+
+6188,Nonce Cap,Caps the nonce at 2^64-2,Gavin John (@Pandapip1),https://ethereum-magicians.org/t/eip-6190-functional-selfdestruct/12232,Review,Standards Track,Core,2022-12-20,2929
+
+6189,Alias Contracts,Allows the creation of contracts that forward calls to other contracts,Gavin John (@Pandapip1),https://ethereum-magicians.org/t/eip-6190-functional-selfdestruct/12232,Review,Standards Track,Core,2022-12-20,"2929, 6188"
+
+6190,Verkle-compatible SELFDESTRUCT,Changes SELFDESTRUCT to only cause a finite number of state changes,Gavin John (@Pandapip1),https://ethereum-magicians.org/t/eip-6190-functional-selfdestruct/12232,Review,Standards Track,Core,2022-12-20,"2929, 6188, 6189"
+
+6206,EOF - JUMPF instruction,Introduces instruction for chaining function calls.,"Andrei Maiboroda (@gumb0), Alex Beregszaszi (@axic), Paweł Bylica (@chfast), Matt Garnett (@lightclient)",https://ethereum-magicians.org/t/eip-4750-eof-functions/8195,Draft,Standards Track,Core,2022-12-21,"4750, 5450"
+
+6220,Composable NFTs utilizing Equippable Parts,An interface for Composable non-fungible tokens through fixed and slot parts equipping.,"Bruno Škvorc (@Swader), Cicada (@CicadaNCR), Steven Pineda (@steven2308), Stevan Bogosavljevic (@stevyhacker), Jan Turk (@ThunderDeliverer)",https://ethereum-magicians.org/t/eip-6220-composable-nfts-utilizing-equippable-parts/12289,Final,Standards Track,ERC,2022-12-20,"165, 721, 5773, 6059"
+
+6224,Contracts Dependencies Registry,An interface for managing smart contracts with their dependencies.,Artem Chystiakov (@arvolear),https://ethereum-magicians.org/t/eip-6224-contracts-dependencies-registry/12316,Draft,Standards Track,ERC,2022-12-27,"1967, 5750"
+
+6239,Semantic Soulbound Tokens,Adding RDF triples to ERC-5192 token metadata to capture social meaning,Jessica Chang (@JessicaChg),https://ethereum-magicians.org/t/eip-6239-semantic-soulbound-tokens/12334,Draft,Standards Track,ERC,2022-12-30,"165, 721, 5192"
+
+6268,Untransferability Indicator for EIP-1155,An extension of EIP-1155 for indicating the transferability of the token.,Yuki Aoki (@yuki-js),https://ethereum-magicians.org/t/sbt-implemented-in-erc1155/12182,Draft,Standards Track,ERC,2022-01-06,"165, 1155"
+
+627,Whisper Specification,Vlad Gluhovsky <gluk256@gmail.com>,Standards Track,Networking,Final,2017-05-05
+
+6315,ERC-2771 Account Abstraction,A variant of ERC-2771 that does not require forwarders to be trusted,Gavin John (@Pandapip1),https://ethereum-magicians.org/t/trustless-eip-2771/12497,Draft,Standards Track,ERC,2023-01-11,2771
+
+6327,Elastic Signature,Use password to sign data as private key,George (@JXRow),https://ethereum-magicians.org/t/eip-6327-elastic-signature-es/12554,Draft,Standards Track,ERC,2023-01-13
+
+634,Storage of text records in ENS,Profiles for ENS resolvers to store arbitrary text key/value pairs.,Richard Moore (@ricmoo),Standards Track,#2439,ERC,Stagnant,2017-05-17,"137, 165"
+
+6353,Charity token,Extension of EIP-20 token that can be partially donated to a charity project,"Aubay <blockchain-team@aubay.com>, BOCA Jeabby (@bjeabby1507), EL MERSHATI Laith (@lth-elm), KEMP Elia (@eliakemp)",https://ethereum-magicians.org/t/erc20-charity-token/12617,Draft,Standards Track,ERC,2022-05-13,20
+
+6357,Single-contract Multi-delegatecall,Allows an EOA to call multiple functions of a smart contract in a single transaction,Gavin John (@Pandapip1),https://ethereum-magicians.org/t/eip-6357-single-contract-multicall/12621,Review,Standards Track,ERC,2023-01-18
+
+6358,Cross-Chain Token States Synchronization,A paradigm to synchronize token states over multiple existing public chains,"Shawn Zheng (@xiyu1984), Jason Cheng <chengjingxx@gmail.com>, George Huang (@virgil2019), Kay Lin (@kay404)",https://ethereum-magicians.org/t/add-eip-6358-omniverse-distributed-ledger-technology/12625,Review,Standards Track,ERC,2023-01-17
+
+6366,Permission Token,A new token that held the permission of an address in an ecosystem,"Chiro (@chiro-hiro), Victor Dusart (@vdusart)",https://ethereum-magicians.org/t/eip-6366-a-standard-for-permission-token/9105,Draft,Standards Track,ERC,2022-01-19,6617
+
+6372,Contract clock,An interface for exposing a contract's clock value and details,"Hadrien Croubois (@Amxx), Francisco Giordano (@frangio)",https://ethereum-magicians.org/t/eip-6372-contract-clock/12689,Review,Standards Track,ERC,2023-01-25
+
+6381,Public Non-Fungible Token Emote Repository,React to any Non-Fungible Tokens using Unicode emojis.,"Bruno Škvorc (@Swader), Steven Pineda (@steven2308), Stevan Bogosavljevic (@stevyhacker), Jan Turk (@ThunderDeliverer)",https://ethereum-magicians.org/t/eip-6381-emotable-extension-for-non-fungible-tokens/12710,Last Call,2023-05-02,Standards Track,ERC,2023-01-22,165
+
+6384,Human-readable offline signatures,A method for retrieving a human-readable description of EIP-712 typed and structured data.,"Tal Be'ery <tal@zengo.com>, RoiV (@DeVaz1)",https://ethereum-magicians.org/t/eip-6384-readable-eip-712-signatures/12752,Draft,Standards Track,ERC,2023-01-08,712
+
+6404,SSZ Transactions Root,Migration of transactions MPT commitment to SSZ,"Etan Kissling (@etan-status), Vitalik Buterin (@vbuterin)",https://ethereum-magicians.org/t/eip-6404-ssz-transactions-root/12783,Draft,Standards Track,Core,2023-01-30,"155, 658, 1559, 2718, 2930, 4844, 6475"
+
+6454,Minimal Transferable NFT detection interface,A minimal extension to identify the transferability of Non-Fungible Tokens.,"Bruno Škvorc (@Swader), Francesco Sullo (@sullof), Steven Pineda (@steven2308), Stevan Bogosavljevic (@stevyhacker), Jan Turk (@ThunderDeliverer)",https://ethereum-magicians.org/t/minimalistic-transferable-interface/12517,Final,Standards Track,ERC,2023-01-31,"165, 721"
+
+6464,"Multi-operator, per-token ERC-721 approvals.",Extends ERC-721 to allow token owners to approve multiple operators to control their assets on a per-token basis.,"Cristian Espinoza (@crisgarner), Simon Fremaux (@dievardump), David Huber (@cxkoda), and Arran Schlosberg (@aschlosberg)",https://ethereum-magicians.org/t/fine-grained-erc721-approval-for-multiple-operators/12796,Draft,Standards Track,ERC,2023-02-02,"165, 721"
+
+6465,SSZ Withdrawals Root,Migration of withdrawals MPT commitment to SSZ,"Etan Kissling (@etan-status), Mikhail Kalinin (@mkalinin)",https://ethereum-magicians.org/t/eip-6465-ssz-withdrawals-root/12883,Draft,Standards Track,Core,2023-02-08,4895
+
+6466,SSZ Receipts Root,Migration of receipts MPT commitment to SSZ,"Etan Kissling (@etan-status), Vitalik Buterin (@vbuterin)",https://ethereum-magicians.org/t/eip-6466-ssz-receipts-root/12884,Draft,Standards Track,Core,2023-02-08,"155, 658, 1559, 2718, 2930, 4844, 6404, 6475"
+
+6475,SSZ Optional,New SSZ type to represent optional values,"Etan Kissling (@etan-status), Zahary Karadjov (@zah)",https://ethereum-magicians.org/t/eip-6475-ssz-optional/12891,Review,Standards Track,Core,2023-02-09
+
+649,Metropolis Difficulty Bomb Delay and Block Reward Reduction,"Afri Schoedon (@5chdn), Vitalik Buterin (@vbuterin)",#649,Standards Track,Core,Final,2017-06-21
+
+6492,Signature Validation for Predeploy Contracts,A way to verify a signature when the account is a smart contract that has not been deployed yet,"Ivo Georgiev (@Ivshti), Agustin Aguilar (@Agusx1211)",https://ethereum-magicians.org/t/eip-6492-signature-validation-for-pre-deploy-contracts/12903,Review,Standards Track,ERC,2023-02-10,1271
+
+6493,SSZ Transaction Signature Scheme,Signature scheme for SSZ transactions,"Etan Kissling (@etan-status), Matt Garnett (@lightclient), Vitalik Buterin (@vbuterin)",https://ethereum-magicians.org/t/eip-6493-ssz-transaction-signature-scheme/13050,Review,Standards Track,Core,2023-02-24,"155, 2124, 2718"
+
+6506,P2P Escrowed Governance Incentives,Interface for building contracts that escrow funds based on an account taking action in a DAO,Josh Weintraub (@jhweintraub),https://ethereum-magicians.org/t/escrowed-and-private-bribes-for-generalized-dao-voting/12694,Draft,Standards Track,ERC,2023-02-15
+
+6538,Stealth Meta-Address Registry,A registry to map addresses to stealth meta-addresses,"Matt Solomon (@mds1), Toni Wahrstätter (@nerolation), Ben DiFrancesco (@apbendi), Vitalik Buterin (@vbuterin)",https://ethereum-magicians.org/t/stealth-meta-address-registry/12888,Draft,Standards Track,ERC,2023-01-24
+
+6551,Non-fungible Token Bound Accounts,An interface and registry for smart contract accounts owned by ERC-721 tokens,"Jayden Windle (@jaydenwindle), Benny Giang <bg@futureprimitive.xyz>, Steve Jang, Druzy Downs (@druzydowns), Raymond Huynh (@huynhr), Alanah Lam <alanah@futureprimitive.xyz>, Wilkins Chung (@wwhchung) <wilkins@manifold.xyz>, Paul Sullivan (@sullivph) <paul.sullivan@manifold.xyz>",https://ethereum-magicians.org/t/non-fungible-token-bound-accounts/13030,Draft,Standards Track,ERC,2023-02-23,"155, 165, 721, 1167, 1271"
+
+658,Embedding transaction status code in receipts,Nick Johnson <nick@ethereum.org>,Standards Track,Core,Final,2017-06-30,140
+
+6596,Historical Asset Metadata JSON Schema,"Metadata JSON Schema extension to enhance the discoverability, connectivity, and collectability of historically significant NFTs.","Phillip Pon <phillip@artifactlabs.com>, Gary Liu <gary@artifactlabs.com>, Henry Chan <henry@artifactlabs.com>, Joey Liu <joey@artifactlabs.com>, Lauren Ho <lauren@artifactlabs.com>, Jeff Leung <jeff@artifactlabs.com>, Yvan Fatal <yvan@artifactlabs.com>, Brian Liang <brian@artifactlabs.com>, Seungyong Moon <seungyong@artifactlabs.com>, Joyce Li <joyce@artifactlabs.com>, Phoebe Kwok <phoebe@artifactlabs.com>, Avir Mahtani <avir@artifactlabs.com>, Zeon Chan <zeon@artifactlabs.com>, Antoine Cote <anotine@volla.io>, David Leung (@dhl)",https://ethereum-magicians.org/t/eip-6596-historical-asset-metadata-json-schema/13090,Draft,Standards Track,ERC,2023-02-28,"721, 1155"
+
+6617,Bit Based Permission,A permission and role system based on bits,"Chiro (@chiro-hiro), Victor Dusart (@vdusart)",https://ethereum-magicians.org/t/bit-based-permission/13065,Draft,Standards Track,ERC,2023-02-27
+
+663,Unlimited SWAP and DUP instructions,Introduce SWAPN and DUPN which take an immediate value for the depth,Alex Beregszaszi (@axic),https://ethereum-magicians.org/t/eip-663-unlimited-swap-and-dup-instructions/3346,Review,Standards Track,Core,2017-07-03,3540
+
+665,Add precompiled contract for Ed25519 signature verification,Tobias Oberstein <tobias.oberstein@crossbario.com>,Stagnant,Standards Track,Core,2018-03-25
+
+6662,AA Account Metadata For Authentication,An ERC-4337 extension to define a new authentication model,"Shu Dong (@dongshu2013), Zihao Chen (@zihaoccc), Peter Chen (@pette1999)",https://ethereum-magicians.org/t/eip-6662-account-metadata-for-aa-account-authentication/13232,Draft,Standards Track,ERC,2023-03-09,"4337, 4804"
+
+6672,Multi-redeemable NFTs,An extension of ERC-721 which enables an NFT to be redeemed in multiple scenarios for either a physical or digital object,"RE:DREAMER Lab <dev@redreamer.io>, Archie Chang (@ArchieR7) <archie@redreamer.io>, Kai Yu (@chihkaiyu) <kai@redreamer.io>, Yonathan Randyanto (@Randyanto) <randy@redreamer.io>, Boyu Chu (@chuboyu) <boyu@redreamer.io>, Boxi Li (@boxi79) <boxi@redreamer.io>, Jason Cheng (@Jason0729) <jason@redreamer.io>",https://ethereum-magicians.org/t/eip-6672-multi-redeemable-nfts/13276,Final,Standards Track,ERC,2023-02-21,"165, 721"
+
+67,"URI Scheme with Metadata, Value and Bytecode",Format for encoding transactions into a URI,Alex Van de Sande (@alexvansande),#67,Withdrawn,Standards Track,ERC,2016-02-17,Superseded by EIP-681
+
+6780,SELFDESTRUCT only in same transaction,"SELFDESTRUCT will recover all funds to the caller but not delete the account, except when called in the same transaction as creation","Guillaume Ballet (@gballet), Vitalik Buterin (@vbuterin), Dankrad Feist (@dankrad)",https://ethereum-magicians.org/t/deactivate-selfdestruct-except-where-it-occurs-in-the-same-transaction-in-which-a-contract-was-created/13539,Draft,Standards Track,Core,2023-03-25,"2681, 2929, 3529"
+
+6786,Registry for royalties payment for NFTs,A registry used for paying royalties for any NFT with information about the creator,"Otniel Nicola (@OT-kthd), Bogdan Popa (@BogdanKTHD)",https://ethereum-magicians.org/t/eip-6786-royalty-debt-registry/13569,Draft,Standards Track,ERC,2023-03-27,"165, 2981"
+
+6787,Order Book DEX with Two Phase Withdrawal,An order book-based DEX Interface that ensures the asset security of both users and the exchange,"Jessica (@qizheng09), Roy (@royshang), Jun (@SniperUsopp)",https://ethereum-magicians.org/t/order-book-dex-standard/13573,Draft,Standards Track,ERC,2023-03-27
+
+6789,Rename gas to mana,"This EIP suggests renaming gas to mana, as proposed by Vitalik Buterin in 2015",Pascal Caversaccio (@pcaversaccio),https://ethereum-magicians.org/t/eip-6789-rename-gas-to-mana/13570,Draft,Standards Track,Interface,2023-03-27
+
+6808,Fungible Key Bound Token,"An interface for Fungible Key Bound Tokens, also known as a FKBT.","Mihai Onila (@MihaiORO), Nick Zeman (@NickZCZ), Narcis Cotaie (@NarcisCRO)",https://ethereum-magicians.org/t/fungible-key-bound-token-kbt/13624,Review,Standards Track,ERC,2023-03-31,20
+
+6809,Non-Fungible Key Bound Token,"An interface for Non-Fungible Key Bound Tokens, also known as a NFKBT.","Mihai Onila (@MihaiORO), Nick Zeman (@NickZCZ), Narcis Cotaie (@NarcisCRO)",https://ethereum-magicians.org/t/non-fungible-key-bound-token-kbt/13625,Review,Standards Track,ERC,2023-03-31,721
+
+681,URL Format for Transaction Requests,Daniel A. Nagy (@nagydani),Standards Track,ERC,Final,https://ethereum-magicians.org/t/erc-681-representing-various-transactions-as-urls,2017-08-01,"20, 137"
+
+6810,Ex Post Facto Cascading Revert,Allow transactions to be reversed after confirmation,William Morriss (@wjmelements),https://ethereum-magicians.org/t/eip-6810-ex-post-facto-cascading-revert/13630,Draft,Standards Track,Core,2023-04-01,"2718, 2929"
+
+6811,To The Moon—10 Minute Blocks,Increases the block time to facilitate finality over cosmic distances,Pandapip1 (@Pandapip1),https://ethereum-magicians.org/t/ethereum-to-the-moon/13633,Draft,Standards Track,Core,2023-04-01
+
+6821,Support ENS Name for Web3 URL,A mapping from an ENS name to the contract address in Web3 URL,"Qi Zhou (@qizhou), Qiang Zhu (@qzhodl)",https://ethereum-magicians.org/t/eip-6821-support-ens-name-for-web3-url/13654,Draft,Standards Track,ERC,2023-04-02,"137, 634, 3770, 4804"
+
+684,Revert creation in case of collision,Revert contract creation if address already has code,"Vitalik Buterin (@vbuterin), Renan Rodrigues de Souza (@RenanSouza2)",https://ethereum-magicians.org/t/eip-revert-on-address-collision/13442,Final,Standards Track,Core,2023-03-20
+
+6865,On-Chain EIP-712 Visualization,Visualize structured data highlighting the potential consequences for users' assets,Abderrahmen Hanafi (@a6-dou),https://ethereum-magicians.org/t/eip-6865-on-chain-eip-712-visualization/13800,Draft,Standards Track,ERC,2023-04-10,712
+
+6888,Math checking in EVM,Check for math underflows overflows and division by zero at EVM level,Renan Rodrigues de Souza (@RenanSouza2),https://ethereum-magicians.org/t/eip-math-checking/13846,Draft,Standards Track,Core,2023-04-16
+
+689,Address Collision of Contract Address Causes Exceptional Halt,Yoichi Hirai <i@yoichihirai.com>,Standards Track,Core,Stagnant,2017-08-15
+
+6900,Modular Smart Contract Accounts and Plugins,Interfaces for composable account plugins optionally supporting upgradability and introspection,"Adam Egyed (@adamegyed), Fangting Liu (@trinity-0111)",https://ethereum-magicians.org/t/eip-modular-smart-contract-accounts-and-plugins/13885,Draft,Standards Track,ERC,2023-04-18,4337
+
+6913,SETCODE instruction,replace code in-place,William Morriss (@wjmelements),https://ethereum-magicians.org/t/eip-6913-setcode-instruction/13898,Draft,Standards Track,Core,2023-04-20
+
+695,Create `eth_chainId` method for JSON-RPC,"Isaac Ardis <isaac.ardis@gmail.com>, Wei Tang (@sorpaas), Fan Torchz (@tcz001), Erik Marks (@rekmarks)",https://ethereum-magicians.org/t/eip-695-create-eth-chainid-method-for-json-rpc/1845,Standards Track,Interface,Final,2017-08-21,155
+
+6953,Network Upgrade Activation Triggers,Exhaustive list of network upgrade activation mechanisms,Tim Beiko (@timbeiko),https://ethereum-magicians.org/t/eip-6666-network-upgrade-activation-triggers/14047,Draft,Informational,2023-04-28,"2982, 3675, 6122"
+
+6956,Asset-bound Non-Fungible Tokens,Asset-bound NFTs anchor a token 1-1 to an asset and operations are authorized through oracle-attestation of control over the asset,"Thomas Bergmueller (@tbergmueller), Lukas Meyer (@ibex-technology)",https://ethereum-magicians.org/t/erc-6956-asset-bound-non-fungible-tokens/14056,Draft,Standards Track,ERC,2023-04-29,"165, 721"
+
+6963,Multi Injected Provider Discovery,Using window events to announce injected wallet providers,"Pedro Gomes (@pedrouid), Kosala Hemachandra (@kvhnuke), Richard Moore (@ricmoo), Gregory Markou (@GregTheGreek), Kyle Den Hartog (@kdenhartog), Glitch (@glitch-txs), Jake Moxey (@jxom), Pierre Bertet (@bpierre), Darryl Yeo (@darrylyeo)",https://ethereum-magicians.org/t/eip-6963-multi-injected-provider-interface-aka-mipi/14076,Draft,Standards Track,Interface,2023-05-01,1193
+
+698,OPCODE 0x46 BLOCKREWARD,Cody Burns <dontPanic@codywburns.com>,#698,Stagnant,Standards Track,Core,2017-08-28
+
+6988,Elected block proposer has not been slashed,Prevents a slashed validator from being elected as a block proposer,Mikhail Kalinin (@mkalinin),https://ethereum-magicians.org/t/eip-6988-elected-block-proposer-has-not-been-slashed/14349,Draft,Standards Track,Core,2023-05-04
+
+7,DELEGATECALL,Vitalik Buterin (@vbuterin),Final,Standards Track,Core,2015-11-15
+
+7045,Increase max attestation inclusion slot,Increases max attestaton inclusion slot to the last slot in `N+1` where `N` is the epoch containing the attestations slot.,Danny Ryan (@djrtwo),https://ethereum-magicians.org/t/eip-7045-increase-attestation-slot-inclusion-range/14342,Draft,Standards Track,Core,2023-05-18
+
+706,DEVp2p snappy compression,Péter Szilágyi <peter@ethereum.org>,Standards Track,Networking,Final,2017-09-07
+
+712,Typed structured data hashing and signing,A procedure for hashing and signing of typed structured data as opposed to just bytestrings.,"Remco Bloemen (@Recmo), Leonid Logvinov (@LogvinovLeon), Jacob Evans (@dekz)",https://ethereum-magicians.org/t/eip-712-eth-signtypeddata-as-a-standard-for-machine-verifiable-and-human-readable-typed-data-signing/397,Final,Standards Track,Interface,2017-09-12,"155, 191"
+
+721,Non-Fungible Token Standard,"William Entriken (@fulldecent), Dieter Shirley <dete@axiomzen.co>, Jacob Evans <jacob@dekz.net>, Nastassia Sachs <nastassia.sachs@protonmail.com>",#721,Standards Track,ERC,Final,2018-01-24,165
+
+725,General data key/value store and execution,An interface for a smart contract based account with attachable data key/value store,"Fabian Vogelsteller (@frozeman), Tyler Yasaka (@tyleryasaka)",https://ethereum-magicians.org/t/discussion-for-eip725/12158,Draft,Standards Track,ERC,2017-10-02,"165, 173"
+
+747,wallet_watchAsset RPC Method,Adds a new RPC method that allows websites to prompt users to watch an asset,"Dan Finlay (@danfinlay), Esteban Mino (@estebanmino), Gavin John (@Pandapip1)",https://ethereum-magicians.org/t/eip-747-eth-watchtoken/1048,Final,Standards Track,Interface,2018-08-13,"20, 1046, 1193"
+
+758,Subscriptions and filters for completed transactions,Jack Peterson <jack@tinybike.net>,Standards Track,Interface,Stagnant,2017-11-09,1474
+
+777,Token Standard,"Jacques Dafflon <mail@0xjac.com>, Jordi Baylina <jordi@baylina.cat>, Thomas Shababi <tom@truelevel.io>",#777,Final,Standards Track,ERC,2017-11-20,1820
+
+778,Ethereum Node Records (ENR),Felix Lange <fjl@ethereum.org>,Standards Track,Networking,Final,2017-11-23,ethereum/devp2p#43
+
+779,Hardfork Meta: DAO Fork,Casey Detrio (@cdetrio),Meta,Final,2017-11-26,606
+
+8,devp2p Forward Compatibility Requirements for Homestead,Felix Lange <felix@ethdev.com>,Final,Standards Track,Networking,2015-12-18
+
+801,Canary Standard,ligi <ligi@ligi.de>,Standards Track,ERC,Stagnant,2017-12-16
+
+820,Pseudo-introspection Registry Contract,"Jordi Baylina <jordi@baylina.cat>, Jacques Dafflon <jacques@dafflon.tech>",#820,Final,Standards Track,ERC,"165, 214",2018-01-05
+
+823,Token Exchange Standard,Kashish Khullar <kkhullar7@gmail.com>,Standards Track,ERC,Stagnant,2018-01-06,20
+
+831,URI Format for Ethereum,A way of creating Ethereum URIs for various use-cases.,ligi (@ligi),https://ethereum-magicians.org/t/eip-831-uri-format-for-ethereum/10105,Stagnant,Standards Track,ERC,2018-01-15,"67, 681"
+
+858,Reduce block reward and delay difficulty bomb,Carl Larson <cslarson@gmail.com>,Standards Track,Core,Stagnant,2018-01-29
+
+86,Abstraction of transaction origin and signature,Vitalik Buterin (@vbuterin),Standards Track,Core,Stagnant,2017-02-10
+
+867,Standardized Ethereum Recovery Proposals,"Dan Phifer <dp@musiconomi.com>, James Levy <james@taptrust.com>, Reuben Youngblom <reuben@taptrust.com>",https://ethereum-magicians.org/t/eip-867-standardized-ethereum-recovery-proposals-erps/139,Meta,Stagnant,2018-02-02
+
+868,Node Discovery v4 ENR Extension,Felix Lange <fjl@ethereum.org>,Standards Track,Networking,Final,2018-02-02,"8, 778",ethereum/devp2p#44
+
+875,Simpler NFT standard with batching and native atomic swaps,"Weiwu Zhang <a@colourful.land>, James Sangalli <j.l.sangalli@gmail.com>",#875,Withdrawn,Standards Track,ERC,2018-02-08
+
+884,DGCL Token,Dave Sag <davesag@gmail.com>,Standards Track,ERC,Stagnant,2018-02-14
+
+897,DelegateProxy,"Jorge Izquierdo <jorge@aragon.one>, Manuel Araoz <manuel@zeppelin.solutions>",Standards Track,ERC,Stagnant,2018-02-21,#897
+
+900,Simple Staking Interface,"Dean Eigenmann <dean@tokenate.io>, Jorge Izquierdo <jorge@aragon.one>",Standards Track,ERC,Stagnant,2018-02-22,#900
+
+902,Token Validation,"Brooklyn Zelenka (@expede), Tom Carchrae (@carchrae), Gleb Naumenko (@naumenkogs)",https://ethereum-magicians.org/t/update-on-erc902-validated-token/1639,Standards Track,ERC,Stagnant,2018-02-14,1066
+
+908,Reward clients for a sustainable network,"James Ray (@jamesray1), Micah Zoltu (@MicahZoltu)",https://ethereum-magicians.org/t/eip-908-reward-full-nodes-and-clients/241,Withdrawn,Standards Track,Core,2018-03-01
+
+918,Mineable Token Standard,"Jay Logelin <jlogelin@alumni.harvard.edu>, Infernal_toast <admin@0xbitcoin.org>, Michael Seiler <mgs33@cornell.edu>, Brandon Grill <bg2655@columbia.edu>",Standards Track,ERC,Stagnant,2018-03-07
+
+926,Address metadata registry,Nick Johnson <nick@ethereum.org>,Standards Track,ERC,Stagnant,2018-03-12,165
+
+927,Generalised authorisations,Nick Johnson <nick@ethereum.org>,Standards Track,ERC,Stagnant,2018-03-12,926
+
+969,Modifications to ethash to invalidate existing dedicated hardware implementations,David Stanfill <david@airsquirrels.com>,https://gitter.im/ethereum/topics/topic/5ac4d974109bb043328911ce/eip-969-discussion,Stagnant,Standards Track,Core,2018-04-03
+
+998,Composable Non-Fungible Token,Extends a ERC-721 to own other ERC-721 and ERC-20 tokens.,"Matt Lockyer <mattdlockyer@gmail.com>, Nick Mudge <nick@perfectabstractions.com>, Jordan Schalm <jordan.schalm@gmail.com>, sebastian echeverry <sebastian.echeverry@robotouniverse.com>, Zainan Victor Zhou (@xinbenlv)",https://ethereum-magicians.org/t/erc-998-composable-non-fungible-tokens-cnfts/387,Draft,Standards Track,ERC,2018-07-07,"20, 165, 721"
+
+999,Restore Contract Code at 0x863DF6BFa4469f3ead0bE8f9F2AAE51c91A907b4,Afri Schoedon (@5chdn),https://ethereum-magicians.org/t/eip-999-restore-contract-code-at-0x863df6bfa4/130,Withdrawn,Standards Track,Core,2018-04-04
