@@ -1,12 +1,14 @@
 import requests
 from bs4 import BeautifulSoup
 import csv
-
+import re 
+import sys
+import json
 # Send a GET request to the main page with the list of links
 main_url = "https://github.com/ethereum/EIPs/tree/master/EIPS"
 main_response = requests.get(main_url)
-base_url = "https://github.com"
-wrong_link_list = ["https://github.com",
+base_url = "https://raw.githubusercontent.com"
+wrong_link_list = ["https://raw.githubusercontent.com",
     "/ethereum/EIPs/tree/597592eeb9cca9221a27fcff8fb7b64b7d0834a5/EIPS",
     "https://docs.github.com/site-policy/github-terms/github-terms-of-service",
     "https://docs.github.com/site-policy/privacy-policies/github-privacy-statement",
@@ -74,7 +76,9 @@ wrong_link_list = ["https://github.com",
     "/ethereum/EIPs",
     "/ethereum/EIPs/commits/master/EIPS",
     "/ethereum/EIPs/tree/2fd73316d4282fe3f379319da812f27c8f7f5cf0/EIPS",
-    "/ethereum/EIPs/tree/df55bdd3b592e0f08d7197ace05c56cee4d574b6/EIPS"
+    "/ethereum/EIPs/tree/df55bdd3b592e0f08d7197ace05c56cee4d574b6/EIPS",
+    "/ethereum/EIPs/tree/f4c3a2f0b6ef4bbd218d86424539c42bf6a19ce0/EIPS",
+    "https://github.com"
     
 
 
@@ -85,35 +89,49 @@ main_soup = BeautifulSoup(main_response.content, "html.parser")
 # Find the list of links on the main page
 links = main_soup.find_all("a")
 
-# Open a CSV file in write mode
-with open("data2.csv", "w", newline="") as csv_file:
-    writer = csv.Dictwriter(csv_file,fieldnames=[])
+# linked_response = requests.get(linked_text)
+# print(linked_response.text)
+# with open("data_in_json.json", "w") as file:
 
-    # Iterate over each link and extract table data from the linked page
-    for link in links:
-        # Get the URL of the linked page
-        linked_url = link.get("href")
-        if linked_url in wrong_link_list:
-            continue
-        else:
-            full_url = base_url + linked_url
+# Create a list to store the dictionaries
+data_dict_list = []
+counter = 0 
+# Iterate over each link and extract table data from the linked page
+for link in links:
+    counter = counter + 1
+    # Get the URL of the linked page
+    linked_url = link.get("href")
+    if linked_url in wrong_link_list:
+        continue
+    else:
+        full_url = base_url + linked_url
+        
+        #replace /blob from link
+        final_url = full_url.replace("/blob", "")
+
+        linked_response = requests.get(final_url)
+        print(f"{counter} scrapping from --> {final_url}")
+        #we get the text from the readme raw file
+        link_text = linked_response.text
+
+        #create regular expression
+        regexp = re.compile(r'---\n(.*?)\n---',re.S)
+        table_data_in_text = re.findall(regexp, link_text)
+        #check is the expression result empty or not
+        if table_data_in_text != []:
             
-            # Send a GET request to the linked page
-            linked_response = requests.get(full_url)
+            table_data_in_list = table_data_in_text[0].split("\n")
+            # Convert data_list1 to dictionary
+            data_dict = {}
+            for item in table_data_in_list:
+                key, value = item.split(': ', 1)
+                key = key.strip()
+                value = value.strip()
+                data_dict[key] = value
+            
+            #adding this dictionary data in list 
+            data_dict_list.append(data_dict)
+json_data =json.dumps(data_dict_list)
 
-            # Create a BeautifulSoup object from the linked page HTML content
-            linked_soup = BeautifulSoup(linked_response.content, "html.parser")
-
-            # Extract data from the table on the linked page
-            table = linked_soup.find("table")
-
-            if table:
-                rows = table.find_all("tr")
-
-                # Write table data to the CSV file
-                for row in rows:
-                    columns = row.find_all("td")
-                    row_data = [column.text for column in columns]
-                    writer.writerow(row_data)
-            else:
-                print("No table found on the linked page:", linked_url)
+with open('data_in_json.json','w') as file:
+    file.write(json_data)
